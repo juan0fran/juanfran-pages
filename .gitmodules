@@ -1,0 +1,6 @@
+[submodule "juanfranpage/hugo-resume"]
+	path = juanfranpage/hugo-resume
+	url = https://github.com/eddiewebb/hugo-resume
+[submodule "juanfranpage/themes/hugo-resume"]
+	path = juanfranpage/themes/hugo-resume
+	url = https://github.com/eddiewebb/hugo-resume
