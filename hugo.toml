@@ -27,14 +27,6 @@ googleAnalytics = "UA-XXXXXXX-Y"
         location = "Pasadena (USA) | Mallorca (Spain)"
 
         [[params.contact.list]]
-        icon = "fas fa-phone-square"
-        url = "tel:#"
-        text = "+1-626-491-8189"
-        [[params.contact.list]]
-        icon = "fas fa-phone-square"
-        url = "tel:#"
-        text = "+34-626-25-39-55"
-        [[params.contact.list]]
         icon = "fas fa-envelope-square"
         url = "mailto:#"
         text = "info@juanfran.rocks"
