@@ -1,9 +1,9 @@
 # Page settings
 
-baseURL = "localhost:1313/"
+baseURL = "http://example.org/"
 languageCode = "en"
-title = "Joan's main page"
-theme = "hugo-devresume"
+title = ""
+theme = "hugo-devresume-theme"
 googleAnalytics = "UA-XXXXXXX-Y"
 
 
@@ -12,8 +12,8 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
 
 [params]
-    author = "Joan Francesc Muñoz Martin"
-    description = "Resume and Personal webpage"
+    author = "CowboySmall"
+    description = "DevResume - Bootstrap 4 Resume/CV Template For Software Developers"
 
 
     primaryColor = "#54B689"
@@ -24,9 +24,9 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.profile]
         enable = true
-        name = "Joan F. Muñoz Martin"
-        tagline = "Researcher, Technologist, Engineer"
-        avatar = "avatar2.jpg"
+        name = "Simon Doe"
+        tagline = "Senior Software Engineer"
+        avatar = "avatar.png"
 
 
 
@@ -36,24 +36,20 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.contact]
         enable = true
-        location = "Pasadena (USA) | Mallorca (Spain)"
+        location = "New York"
 
         [[params.contact.list]]
         icon = "fas fa-phone-square"
         url = "tel:#"
-        text = "+1-626-491-8189"
-        [[params.contact.list]]
-        icon = "fas fa-phone-square"
-        url = "tel:#"
-        text = "+34-626-25-39-55"
+        text = "0123 4567 890"
         [[params.contact.list]]
         icon = "fas fa-envelope-square"
         url = "mailto:#"
-        text = "info@juanfran.rocks"
+        text = "simon.doe@yourwebsite.com"
         [[params.contact.list]]
         icon = "fas fa-globe"
         url = "#"
-        text = "www.juanfran.rocks"
+        text = "www.yourwebsite.com"
 
 
 
@@ -67,15 +63,19 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.skills.list]]
         title = "Technical"
         [[params.skills.list.items]]
-        details = "C/C++/Python/GoLang/MATLAB"
+        details = "JavaScript/Angular/React/Vue"
         [[params.skills.list.items]]
-        details = "Node.js/PostgreSQL/MySQL/Git"
+        details = "Python/Ruby/PHP"
         [[params.skills.list.items]]
-        details = "Altium"
+        details = "Node.js/ASP.NET"
         [[params.skills.list.items]]
-        details = "Design, implement, and validation of embedded systems for science and technology advancements"
+        details = "PostgreSQL/MySQL"
         [[params.skills.list.items]]
-        details = "Lead and deliver complex engineering systems"
+        details = "Object-oriented design"
+        [[params.skills.list.items]]
+        details = "Design and implement database structures"
+        [[params.skills.list.items]]
+        details = "Lead and deliver complex software systems"
 
         [[params.skills.list]]
         title = "Professional"
@@ -84,11 +84,14 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.skills.list.items]]
         details = "Team player"
         [[params.skills.list.items]]
-        details = "Critical thinker"
-        [[params.skills.list.items]]
         details = "Strong problem solver"
         [[params.skills.list.items]]
         details = "Good time management"
+
+
+
+
+
 
 
 
@@ -96,52 +99,54 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.education.list]]
-        degree = "PhD in Telecommunications Engineering (Nano-satellite design and Remote Sensing)"
-        university = "Universitat Politècnica de Catalunya"
-        dates = "2017 - 2021"
+        degree = "MSc in Computer Science"
+        university = "University College London"
+        dates = "2010 - 2011"
         [[params.education.list]]
-        degree = "MSc in Telecommunications Engineering"
-        university = "Universitat Politècnica de Catalunya"
-        dates = "2014 - 2017"
-        [[params.education.list]]
-        degree = "BSc in Telecommunications Engineering"
-        university = "Universitat Politècnica de Catalunya"
-        dates = "2010 - 2014"
+        degree = "BSc Maths and Physics"
+        university = "Imperial College London"
+        dates = "2007 - 2010"
+
+
+
+
+
+
 
 
     [params.awards]
         enable = true
 
         [[params.awards.list]]
-        name = "Best PhD thesis"
-        body = "Three awards: UPC, IEEC, and IEEE GRSS"
-        date = "2022 - 2023"
+        name = "Award Lorem Ipsum"
+        body = "Microsoft lorem ipsum"
+        date = "2019"
         [[params.awards.list]]
-        name = "Group award for the first airborne campaign of a spectrometer for atmospheric sounding"
-        body = "National Aeronautics and Space Administration"
-        date = "2023"
-        [[params.awards.list]]
-        name = "Group award for the implementation of a spectrometer for atmospheric sounding"
-        body = "Jet Propulsion Laboratory"
-        date = "2022"
-        [[params.awards.list]]
-        name = "Group award for the contributions to cis-lunar space monitoring"
-        body = "Jet Propulsion Laboratory"
-        date = "2022"
+        name = "Award Donec Sodales"
+        body = "Oracle Aenean"
+        date = "2017"
+
+
+
+
+
+
 
 
     [params.languages]
         enable = true
 
         [[params.languages.list]]
-        name = "Spanish"
-        level = "Native"
-        [[params.languages.list]]
-        name = "Catalan"
-        level = "Native"
-        [[params.languages.list]]
         name = "English"
+        level = "Native"
+        [[params.languages.list]]
+        name = "Spanish"
         level = "Professional"
+
+
+
+
+
 
 
 
@@ -149,13 +154,17 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.interests.list]]
-        name = "CrossFit"
+        name = "Climbing"
         [[params.interests.list]]
-        name = "Sailing"
+        name = "Snowboarding"
         [[params.interests.list]]
-        name = "Hiking"
+        name = "Photography"
         [[params.interests.list]]
-        name = "Space"
+        name = "Travelling"
+
+
+
+
 
 
 
@@ -167,13 +176,17 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
 
 
+
+
+
+
     [params.experience]
         enable = true
 
         [[params.experience.list]]
-        title = "Research Technologist"
-        dates = "2022 - Present"
-        company = "Jet Propulsion Laboratory"
+        title = "Senior Software Engineer"
+        dates = "2019 - Present"
+        company = "Google"
         details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis."
         [[params.experience.list.items]]
         details = "Lorem ipsum dolor sit amet, consectetuer."
@@ -183,9 +196,9 @@ googleAnalytics = "UA-XXXXXXX-Y"
         details = "Etiam ultricies nisi vel augue."
 
         [[params.experience.list]]
-        title = "Post-doctoral Fellow"
-        dates = "2021 - 2022"
-        company = "Jet Propulsion Laboratory"
+        title = "Lead Software Developer"
+        dates = "2016 - 2019"
+        company = "Apple"
         details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel."
         [[params.experience.list.items]]
         details = "Lorem ipsum dolor sit amet, consectetuer."
@@ -193,28 +206,28 @@ googleAnalytics = "UA-XXXXXXX-Y"
         details = "Aenean commodo ligula eget dolor."
 
         [[params.experience.list]]
-        title = "Pre-doctoral fellow"
-        dates = "2017 - 2021"
-        company = "Universitat Politècnica de Catalunya"
+        title = "Senior Software Developer"
+        dates = "2014 - 2016"
+        company = "Dropbox"
         details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
 
         [[params.experience.list]]
-        title = "Research Assistant"
-        dates = "2014 - 2017"
-        company = "Universitat Politècnica de Catalunya"
+        title = "Senior Developer"
+        dates = "2013 - 2014"
+        company = "Uber"
         details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus."
 
         [[params.experience.list]]
-        title = "IT Assistant"
-        dates = "2012"
-        company = "Colegi Major Universitari Ramon Llull"
+        title = "Backend Developer"
+        dates = "2014 - 2016"
+        company = "Amazon"
         details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
 
         [[params.experience.list]]
-        title = "Administrative Assistant"
-        dates = "2009"
-        company = "Transports de les Illes Balears"
-        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+        title = "Frontend Developer"
+        dates = "2013 - 2014"
+        company = "Startup"
+        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus."
 
 
 
@@ -279,16 +292,16 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
         [[params.social.list]]
         icon = "fab fa-github-square"
-        url = "//github.com/juan0fran"
-        title = "juan0fran"
+        url = "//github.com/username"
+        title = "username"
         [[params.social.list]]
         icon = "fab fa-linkedin"
-        url = "//linkedin.com/in/joan-francesc-munoz-martin"
-        title = "joan-francesc-munoz-martin"
+        url = "//linkedin.com/in/username"
+        title = "username"
         [[params.social.list]]
         icon = "fab fa-twitter-square"
-        url = "//twitter.com/juanfmun"
-        title = "@juanfmun"
+        url = "//twitter.com/username"
+        title = "@username"
 
 
 
