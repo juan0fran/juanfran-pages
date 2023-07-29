@@ -4,7 +4,7 @@ baseURL = "localhost:1313/"
 languageCode = "en"
 title = "Joan's main page"
 theme = "hugo-devresume-theme"
-googleAnalytics = "UA-XXXXXXX-Y"
+googleAnalytics = "G-EN1HZKED0E"
 
 
 [params]
@@ -12,8 +12,8 @@ googleAnalytics = "UA-XXXXXXX-Y"
     description = "Resume and Personal webpage"
 
 
-    primaryColor = "#54B689"
-    textPrimaryColor = "#292929"
+    primaryColor = "#2986cc"
+    textPrimaryColor = "#4b4b4b"
 
     [params.profile]
         enable = true
@@ -28,12 +28,12 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
         [[params.contact.list]]
         icon = "fas fa-envelope-square"
-        url = "mailto:#"
+        url = "mailto:info@juanfran.rocks"
         text = "info@juanfran.rocks"
         [[params.contact.list]]
         icon = "fas fa-globe"
-        url = "#"
-        text = "www.juanfran.rocks"
+        url = "https://www.juanfran.rocks"
+        text = "juanfran.rocks"
 
 
 
