@@ -3,12 +3,8 @@
 baseURL = "localhost:1313/"
 languageCode = "en"
 title = "Joan's main page"
-theme = "hugo-devresume"
+theme = "hugo-devresume-theme"
 googleAnalytics = "UA-XXXXXXX-Y"
-
-
-
-
 
 
 [params]
@@ -19,19 +15,11 @@ googleAnalytics = "UA-XXXXXXX-Y"
     primaryColor = "#54B689"
     textPrimaryColor = "#292929"
 
-
-
-
     [params.profile]
         enable = true
         name = "Joan F. Muñoz Martin"
         tagline = "Researcher, Technologist, Engineer"
         avatar = "avatar2.jpg"
-
-
-
-
-
 
 
     [params.contact]
@@ -54,10 +42,6 @@ googleAnalytics = "UA-XXXXXXX-Y"
         icon = "fas fa-globe"
         url = "#"
         text = "www.juanfran.rocks"
-
-
-
-
 
 
 
@@ -221,11 +205,6 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
 
 
-
-
-
-
-
     [params.projects]
         enable = true
 
@@ -243,11 +222,6 @@ googleAnalytics = "UA-XXXXXXX-Y"
         title = "Project Praesent"
         meta = "Open Source"
         tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
-
-
-
-
-
 
 
 
@@ -272,8 +246,6 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
 
 
-
-
     [params.social]
         enable = true
 
@@ -289,7 +261,6 @@ googleAnalytics = "UA-XXXXXXX-Y"
         icon = "fab fa-twitter-square"
         url = "//twitter.com/juanfmun"
         title = "@juanfmun"
-
 
 
 
