@@ -2,7 +2,7 @@
 
 baseURL = "juanfran.rocks"
 languageCode = "en"
-title = "Joan's main page"
+title = "Joan's resume page"
 theme = "hugo-devresume-theme"
 googleAnalytics = "G-EN1HZKED0E"
 
@@ -67,11 +67,11 @@ googleAnalytics = "G-EN1HZKED0E"
         [[params.skills.list]]
         title = "Metrics (2023)"
         [[params.skills.list.items]]
-        details = "h-index: 13"
+        details = "h-index: 15"
         [[params.skills.list.items]]
         details = "Manuscripts: 33"
         [[params.skills.list.items]]
-        details = "Total Citations: 451"
+        details = "Total Citations: 590"
         [[params.skills.list.items]]
         details = "Conference presentations: 25"
         
@@ -89,7 +89,7 @@ googleAnalytics = "G-EN1HZKED0E"
         university = "Universitat Politècnica de Catalunya"
         dates = "2014 - 2017"
         [[params.education.list]]
-        degree = "BSc in Telecommunications Engineering"
+        degree = "BSc in Telecommunications Systems Engineering"
         university = "Universitat Politècnica de Catalunya"
         dates = "2010 - 2014"
 
@@ -155,47 +155,58 @@ googleAnalytics = "G-EN1HZKED0E"
         title = "Research Technologist"
         dates = "2022 - Present"
         company = "Jet Propulsion Laboratory"
-        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis."
-        [[params.experience.list.items]]
-        details = "Lorem ipsum dolor sit amet, consectetuer."
-        [[params.experience.list.items]]
-        details = "Aenean commodo ligula eget dolor."
-        [[params.experience.list.items]]
-        details = "Etiam ultricies nisi vel augue."
+            [[params.experience.list.items]]
+            details = ""
+            [[params.experience.list.items]]
+            details = ""
+            [[params.experience.list.items]]
+            details = ""
 
         [[params.experience.list]]
         title = "Post-doctoral Fellow"
         dates = "2021 - 2022"
         company = "Jet Propulsion Laboratory"
-        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel."
-        [[params.experience.list.items]]
-        details = "Lorem ipsum dolor sit amet, consectetuer."
-        [[params.experience.list.items]]
-        details = "Aenean commodo ligula eget dolor."
+            [[params.experience.list.items]]
+            details = ""
+            [[params.experience.list.items]]
+            details = ""
 
         [[params.experience.list]]
         title = "Pre-doctoral Fellow"
         dates = "2017 - 2021"
         company = "Universitat Politècnica de Catalunya"
-        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+            [[params.experience.list.items]]
+            details = ""
+            [[params.experience.list.items]]
+            details = ""
 
         [[params.experience.list]]
         title = "Research Assistant"
         dates = "2014 - 2017"
         company = "Universitat Politècnica de Catalunya"
-        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus."
+            [[params.experience.list.items]]
+            details = ""
+            [[params.experience.list.items]]
+            details = ""
 
         [[params.experience.list]]
         title = "IT Assistant"
         dates = "2012"
-        company = "Colegi Major Universitari Ramon Llull"
-        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+        company = "Col.legi Major Universitari Ramón Llull"
+            [[params.experience.list.items]]
+            details = ""
+            [[params.experience.list.items]]
+            details = ""
 
         [[params.experience.list]]
         title = "Administrative Assistant"
         dates = "2009"
-        company = "Transports de les Illes Balears"
-        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+        company = "Transports de les Illes Balears S.C."
+            [[params.experience.list.items]]
+            details = ""
+            [[params.experience.list.items]]
+            details = ""
+        
 
 
 
@@ -204,7 +215,7 @@ googleAnalytics = "G-EN1HZKED0E"
         enable = true
 
         [[params.projects.list]]
-        title = "Cold Atom Laboratory"
+        title = "Cold Atom Laboratory (CAL)"
         meta = "Jet Propulsion Laboratory"
         tagline = "Project description"
 
@@ -214,12 +225,17 @@ googleAnalytics = "G-EN1HZKED0E"
         tagline = "Project description"
 
         [[params.projects.list]]
-        title = "Goldstone Solar System Radar"
+        title = "Goldstone Solar System Radar (GSSR)"
         meta = "Jet Propulsion Laboratory"
         tagline = "Project description"
 
         [[params.projects.list]]
-        title = "Microwave Temperature and Humidity Probe"
+        title = "Microwave Temperature and Humidity Probe (MTHP)"
+        meta = "Jet Propulsion Laboratory"
+        tagline = "Project description"
+
+        [[params.projects.list]]
+        title = "Smart Ice Cloud Sensing (SMICES)"
         meta = "Jet Propulsion Laboratory"
         tagline = "Project description"
 
@@ -245,16 +261,27 @@ googleAnalytics = "G-EN1HZKED0E"
         [[params.information.list]]
         title = "Selected Publications"
         [[params.information.list.items]]
-        details = "2018 · Lorem Ipsum"
+        details = "J. F. Munoz-Martin et al., “In-Orbit Validation of the FMPL-2 Instrument—The GNSS-R and L-Band Microwave Radiometer Payload of the FSSCat Mission,” Remote Sensing, vol. 13, no. 1, p. 121, Dec. 2020, doi: 10.3390/rs13010121. [Online]. Available: http://dx.doi.org/10.3390/rs13010121"
         [[params.information.list.items]]
-        details = "2016 · Sed Fringilla"
-
+        details = "J. F. Munoz-Martin et al., “The Flexible Microwave Payload-2: A SDR-Based GNSS-Reflectometer and L-Band Radiometer for CubeSats,” in IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, vol. 13, pp. 1298-1311, 2020, doi: 10.1109/JSTARS.2020.2977959. [Online]. Available: http://dx.doi.org/10.1109/JSTARS.2020.2977959"
+        [[params.information.list.items]]
+        details = "J. F. Munoz-Martin et al., “Stokes Parameters Retrieval and Calibration of Hybrid Compact Polarimetric GNSS-R Signals,” in IEEE Transactions on Geoscience and Remote Sensing, vol. 60, pp. 1-11, 2022, Art no. 5113911, doi: 10.1109/TGRS.2022.3178578. [Online]. Available: http://dx.doi.org/10.1109/TGRS.2022.3178578"
+        [[params.information.list.items]]
+        details = "J. F. Munoz-Martin et al., “Analysis of polarimetric GNSS-R Stokes parameters of the Earth’s land surface,” Remote Sensing of Environment, vol. 287. Elsevier BV, p. 113491, Mar. 2023. doi: 10.1016/j.rse.2023.113491. [Online]. Available: http://dx.doi.org/10.1016/j.rse.2023.113491"
         [[params.information.list]]
-        title = "Interests"
-        details = "Climbing, Snowboarding, Photography, Travelling"
+        title = "Other Participations"
+        [[params.information.list.items]]
+        details = "Member of the IEEE Geoscience and Remote Sensing Society (GRSS)"
+        [[params.information.list.items]]
+        details = "Local Organizing Committee and Poster chair for the 2023 International Geoscience and Remote Sensing Symposium (IGARSS)"
+        [[params.information.list.items]]
+        details = "Member of “Associació de Radio Aficionants per la Novetat, l'Exploració i la Mesura”"
+        [[params.information.list.items]]
+        details = "Active reviewer in IEEE, MDPI, and Elsevier journals"
+        [[params.information.list.items]]
+        details = "Co-guest Editor in MDPI Remote Sensing"
 
-
-
+        
     [params.social]
         enable = true
 
