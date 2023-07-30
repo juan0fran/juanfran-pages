@@ -255,16 +255,13 @@ googleAnalytics = "G-EN1HZKED0E"
 
 
 
-
-
-
     [params.social]
         enable = true
 
         [[params.social.list]]
         icon = "fa-brands fa-linkedin fa-2xl"
         url = "//linkedin.com/in/joan-francesc-munoz-martin"
-        title = "joan-francesc-munoz-martin"
+        title = "LinkedIn"
         [[params.social.list]]
         icon = "fa-brands fa-twitter fa-2xl"
         url = "//twitter.com/juanfmun"
@@ -280,7 +277,7 @@ googleAnalytics = "G-EN1HZKED0E"
         [[params.social.list]]
         icon = "fa-brands fa-github fa-2xl"
         url = "//github.com/juan0fran"
-        title = "juan0fran"
+        title = "GitHub"
 
 
 
