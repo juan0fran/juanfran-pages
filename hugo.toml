@@ -1,6 +1,6 @@
 # Page settings
 
-baseURL = "localhost:1313/"
+baseURL = "juanfran.rocks"
 languageCode = "en"
 title = "Joan's main page"
 theme = "hugo-devresume-theme"
@@ -10,7 +10,6 @@ googleAnalytics = "G-EN1HZKED0E"
 [params]
     author = "Joan Francesc Muñoz Martin"
     description = "Resume and Personal webpage"
-
 
     primaryColor = "#2986cc"
     textPrimaryColor = "#4b4b4b"
@@ -32,9 +31,8 @@ googleAnalytics = "G-EN1HZKED0E"
         text = "info@juanfran.rocks"
         [[params.contact.list]]
         icon = "fas fa-globe"
-        url = "https://www.juanfran.rocks"
-        text = "juanfran.rocks"
-
+        url = "https://juanfran.rocks"
+        text = "https://juanfran.rocks"
 
 
     [params.skills]
@@ -52,7 +50,7 @@ googleAnalytics = "G-EN1HZKED0E"
         details = "Design, implement, and validation of embedded systems for science and technology advancements"
         [[params.skills.list.items]]
         details = "Lead and deliver complex engineering systems"
-
+        
         [[params.skills.list]]
         title = "Professional"
         [[params.skills.list.items]]
@@ -66,6 +64,17 @@ googleAnalytics = "G-EN1HZKED0E"
         [[params.skills.list.items]]
         details = "Good time management"
 
+        [[params.skills.list]]
+        title = "Metrics (2023)"
+        [[params.skills.list.items]]
+        details = "h-index: 13"
+        [[params.skills.list.items]]
+        details = "Manuscripts: 33"
+        [[params.skills.list.items]]
+        details = "Total Citations: 451"
+        [[params.skills.list.items]]
+        details = "Conference presentations: 25"
+        
 
 
     [params.education]
@@ -135,13 +144,9 @@ googleAnalytics = "G-EN1HZKED0E"
 
 
 
-
     [params.summary]
         enable = true
-        text = "Summarise your career here. Donec quam felis, ultricies nec, pellentesque eu. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.  Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh."
-
-
-
+        text = "Telecommunications engineer with B.Sc., M.Sc., and Ph.D. degrees from UPC BarcelonaTech. Led remote sensing payloads for satellite missions at UPC NanoSat Lab. Collaborated with ESA on projects like BEXUS 19, Fly Your Satellite II, and 3Cat-5/FSSCat. Partook in GNSS-R experiment during MOSAiC. Researcher at NASA's JPL, focusing on GSSR signal processing, microwave radiometry, polarimetric GNSS-R, and innovative Earth observation instruments. Passionate about advancing space technology and instrumentation. Interested in quantum technologies for novel instruments."
 
     [params.experience]
         enable = true
@@ -169,7 +174,7 @@ googleAnalytics = "G-EN1HZKED0E"
         details = "Aenean commodo ligula eget dolor."
 
         [[params.experience.list]]
-        title = "Pre-doctoral fellow"
+        title = "Pre-doctoral Fellow"
         dates = "2017 - 2021"
         company = "Universitat Politècnica de Catalunya"
         details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
@@ -195,35 +200,50 @@ googleAnalytics = "G-EN1HZKED0E"
 
 
 
-
-
     [params.projects]
         enable = true
 
         [[params.projects.list]]
-        title = "Project Lorem Ipsum"
-        meta = "Open Source"
-        tagline = "You can use this section for your side projects. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+        title = "Cold Atom Laboratory"
+        meta = "Jet Propulsion Laboratory"
+        tagline = "Project description"
 
         [[params.projects.list]]
-        title = "Project Sed Fringilla"
-        meta = "Open Source"
-        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+        title = "SMAP-Reflectometry"
+        meta = "Jet Propulsion Laboratory"
+        tagline = "Project description"
 
         [[params.projects.list]]
-        title = "Project Praesent"
-        meta = "Open Source"
-        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+        title = "Goldstone Solar System Radar"
+        meta = "Jet Propulsion Laboratory"
+        tagline = "Project description"
 
+        [[params.projects.list]]
+        title = "Microwave Temperature and Humidity Probe"
+        meta = "Jet Propulsion Laboratory"
+        tagline = "Project description"
 
+        [[params.projects.list]]
+        title = "3Cat-4"
+        meta = "Universitat Politècnica de Catalunya"
+        tagline = "Project description"
 
+        [[params.projects.list]]
+        title = "FSSCat"
+        meta = "Universitat Politècnica de Catalunya"
+        tagline = "Project description"
+
+        [[params.projects.list]]
+        title = "MOSAiC"
+        meta = "Universitat Politècnica de Catalunya"
+        tagline = "Project description"
 
 
     [params.information]
         enable = true
 
         [[params.information.list]]
-        title = "Papers"
+        title = "Selected Publications"
         [[params.information.list.items]]
         details = "2018 · Lorem Ipsum"
         [[params.information.list.items]]
@@ -242,17 +262,25 @@ googleAnalytics = "G-EN1HZKED0E"
         enable = true
 
         [[params.social.list]]
-        icon = "fab fa-github-square"
-        url = "//github.com/juan0fran"
-        title = "juan0fran"
-        [[params.social.list]]
-        icon = "fab fa-linkedin"
+        icon = "fa-brands fa-linkedin fa-2xl"
         url = "//linkedin.com/in/joan-francesc-munoz-martin"
         title = "joan-francesc-munoz-martin"
         [[params.social.list]]
-        icon = "fab fa-twitter-square"
+        icon = "fa-brands fa-twitter fa-2xl"
         url = "//twitter.com/juanfmun"
         title = "@juanfmun"
+        [[params.social.list]]
+        icon = "fa-brands fa-orcid fa-2xl"
+        url = "//orcid.org/0000-0002-6441-6676"
+        title = "OrcID"
+        [[params.social.list]]
+        icon = "fa-brands fa-researchgate fa-2xl"
+        url = "//www.researchgate.net/profile/Joan-Munoz-Martin"
+        title = "ResearchGate"
+        [[params.social.list]]
+        icon = "fa-brands fa-github fa-2xl"
+        url = "//github.com/juan0fran"
+        title = "juan0fran"
 
 
 
