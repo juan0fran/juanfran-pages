@@ -11,6 +11,11 @@
                                     </div>
                                     <div class="item-content">
                                         <p>{{ .tagline }}</p>
+                                        <ul class="resume-list">
+                                            {{ range .items }}
+                                            <li>{{ with .details }}{{ . | markdownify }}{{ end }}</li>
+                                            {{ end }}
+                                        </ul>
                                     </div>
                                 </div><!--//item-->
                                 {{ end }}

@@ -113,6 +113,10 @@ googleAnalytics = "G-EN1HZKED0E"
         name = "Group award for the contributions to cis-lunar space monitoring"
         body = "Jet Propulsion Laboratory"
         date = "2022"
+        [[params.awards.list]]
+        name = "13a Edició Duran-Farrell"
+        body = "Universitat Politècnica de Catalunya"
+        date = "2022"
 
 
     [params.languages]
@@ -156,59 +160,57 @@ googleAnalytics = "G-EN1HZKED0E"
         dates = "2022 - Present"
         company = "Jet Propulsion Laboratory"
             [[params.experience.list.items]]
-            details = ""
+            details = "Research and Development: Research new technologies, tools, and methodologies to improve existing JPL systems. Incorporate cutting-edge practices into assigned projects"
             [[params.experience.list.items]]
-            details = ""
+            details = "Implementation and Troubleshooting: Implementing technology solutions, whether it's software applications or hardware infrastructure. Troubleshoot technical issues and resolve any problems that may arise during the implementation or regular use of the implemented technology"
             [[params.experience.list.items]]
-            details = ""
+            details = "Collaboration and Communication: Work closely with teams of scientist, engineers, managers, and clients to understand product requirements, communicate technical details, and ensure the integration of new technology"
 
         [[params.experience.list]]
         title = "Post-doctoral Fellow"
         dates = "2021 - 2022"
         company = "Jet Propulsion Laboratory"
             [[params.experience.list.items]]
-            details = ""
+            details = "Lead the develoment and implementation of passive mmWave remote sensing systems"
             [[params.experience.list.items]]
-            details = ""
+            details = "Lead the development of novel algorithms for future passive microwave remote sensing systems"
 
         [[params.experience.list]]
         title = "Pre-doctoral Fellow"
         dates = "2017 - 2021"
         company = "Universitat Politècnica de Catalunya"
             [[params.experience.list.items]]
-            details = ""
+            details = "Design, implement, and test development of several CubeSat mission runned by the UPC NanoSat-Lab"
             [[params.experience.list.items]]
-            details = ""
+            details = "Laboratory lead for remote sensing and software develoment, helping BSc. and MSc. students and Ph.D. candidates to excel in their future work"
+            [[params.experience.list.items]]
+            details = "Lead the retrieval of geophysical parameters using the Microwave Interferometric Reflectometer"
+            [[params.experience.list.items]]
+            details = "Co-mentor of MSc. and BSc. theses"
 
         [[params.experience.list]]
         title = "Research Assistant"
         dates = "2014 - 2017"
         company = "Universitat Politècnica de Catalunya"
             [[params.experience.list.items]]
-            details = ""
+            details = "Implementation of satellite telemetry tracking and command (TT&C) ground station at UPC and Montsec observatory"
             [[params.experience.list.items]]
-            details = ""
+            details = "Development of communication systems for nanosatellites (3Cat-1, 3Cat-2, and 3Cat-4)"
 
         [[params.experience.list]]
         title = "IT Assistant"
         dates = "2012"
         company = "Col.legi Major Universitari Ramón Llull"
             [[params.experience.list.items]]
-            details = ""
-            [[params.experience.list.items]]
-            details = ""
+            details = "Support IT team for WiFi deployment in a 250 student housing"
 
         [[params.experience.list]]
         title = "Administrative Assistant"
-        dates = "2009"
-        company = "Transports de les Illes Balears S.C."
+        dates = "Summer 2009 and 2010"
+        company = "Trans-Illes S.C."
             [[params.experience.list.items]]
-            details = ""
-            [[params.experience.list.items]]
-            details = ""
+            details = "Summer job with administrative and archive tasks"
         
-
-
 
 
     [params.projects]
@@ -217,42 +219,80 @@ googleAnalytics = "G-EN1HZKED0E"
         [[params.projects.list]]
         title = "Cold Atom Laboratory (CAL)"
         meta = "Jet Propulsion Laboratory"
-        tagline = "Project description"
+        [[params.projects.list.items]]
+        details="Several deliveries to the International Space Station (ISS) for maintenance tasks on the Cold Atom Laboratory science module"
+        [[params.projects.list.items]]
+        details="Electrical Engineering team supporting science operations"
 
         [[params.projects.list]]
         title = "SMAP-Reflectometry"
         meta = "Jet Propulsion Laboratory"
-        tagline = "Project description"
+            [[params.projects.list.items]]
+            details="Responsible for L1b to L2 processing chains. Softwares written in C, Python, Bash, and MATLAB"
+            [[params.projects.list.items]]
+            details="Conference presentations, manuscript production (5 as first author)"
 
         [[params.projects.list]]
         title = "Goldstone Solar System Radar (GSSR)"
         meta = "Jet Propulsion Laboratory"
-        tagline = "Project description"
+            [[params.projects.list.items]]
+            details="Signal processing: enhance GSSR capabilities by the implementation of several techniques, as polarimetric retrievals, enhanced frequency processing, and parallelization techniques for higher throughput"
+            [[params.projects.list.items]]
+            details="Contributions to Cis-Lunar orbital debris observations"
 
         [[params.projects.list]]
         title = "Microwave Temperature and Humidity Probe (MTHP)"
         meta = "Jet Propulsion Laboratory"
-        tagline = "Project description"
+            [[params.projects.list.items]]
+            details="Design of high resolution 60 GHz digital spectrometer for atmospheric sounding"
+            [[params.projects.list.items]]
+            details="Implementation and characterization of the instrument"
+            [[params.projects.list.items]]
+            details="Flight campaign lead in Kona, Hawaii"
+            [[params.projects.list.items]]
+            details="Receipient of a JPL internal award and a NASA award for the first flight of a high resolution spectrometer"
 
         [[params.projects.list]]
         title = "Smart Ice Cloud Sensing (SMICES)"
         meta = "Jet Propulsion Laboratory"
-        tagline = "Project description"
-
-        [[params.projects.list]]
-        title = "3Cat-4"
-        meta = "Universitat Politècnica de Catalunya"
-        tagline = "Project description"
+            [[params.projects.list.items]]
+            details="Design and implementation of a miniaturized 8 GHz analog spectrometer including detection, amplification, and filtering"
+            [[params.projects.list.items]]
+            details="Design and implementation of a power distribution board for next versions of digital spectrometers"
 
         [[params.projects.list]]
         title = "FSSCat"
         meta = "Universitat Politècnica de Catalunya"
-        tagline = "Project description"
+            [[params.projects.list.items]]
+            details="2017 ESA S^3 and Copernicus Master winner"
+            [[params.projects.list.items]]
+            details="First ESA third-party mission to contribute to Copernicus program"        
+            [[params.projects.list.items]]
+            details="Mission definition, requirement, design documents, test plans, and frequency coordination with other countries"
+            [[params.projects.list.items]]
+            details="Payload lead from PDR to subsystem delivery to science lead for geophysical parameter retrieval including soil moisture, wind speed over the ocean, sea surface salinity, and sea-ice characterization"
 
         [[params.projects.list]]
         title = "MOSAiC"
         meta = "Universitat Politècnica de Catalunya"
-        tagline = "Project description"
+            [[params.projects.list.items]]
+            details="Design and implementation of a scientific instrument for sea-ice thickness detection, deployed in the Arctic Ocean in 2020"
+            [[params.projects.list.items]]
+            details="Responsible for algorithms development to conduct scientific retrievals"
+
+        [[params.projects.list]]
+        title = "3Cat-4"
+        meta = "Universitat Politècnica de Catalunya"
+            [[params.projects.list.items]]
+            details="Part of ESA Fly Your Satellite 2 program"
+            [[params.projects.list.items]]
+            details="Mission definition, requirement, design documents, test plans"
+            [[params.projects.list.items]]
+            details="Payload lead from PDR to subsystem delivery"
+            [[params.projects.list.items]]
+            details="Software development team for C&DH"
+            [[params.projects.list.items]]
+            details="Lead on TT&C on-board and on-ground"
 
 
     [params.information]
