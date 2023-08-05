@@ -1,0 +1,343 @@
+
+[params]
+    author = "Joan Francesc Muñoz Martin"
+    description = "Resume and Personal webpage"
+
+    primaryColor = "#2986cc"
+    textPrimaryColor = "#4b4b4b"
+
+    [params.profile]
+        enable = true
+        name = "Joan F. Muñoz Martin"
+        tagline = "Researcher, Technologist, Engineer"
+        avatar = "avatar2.jpg"
+
+
+    [params.contact]
+        enable = true
+        location = "Pasadena (USA) | Mallorca (Spain)"
+
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:info@juanfran.rocks"
+        text = "info@juanfran.rocks"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "https://juanfran.rocks"
+        text = "https://juanfran.rocks"
+
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Technical"
+        [[params.skills.list.items]]
+        details = "C/C++/Python/GoLang/MATLAB"
+        [[params.skills.list.items]]
+        details = "Node.js/PostgreSQL/MySQL/Git"
+        [[params.skills.list.items]]
+        details = "Altium"
+        [[params.skills.list.items]]
+        details = "Design, implement, and validation of embedded systems for science and technology advancements"
+        [[params.skills.list.items]]
+        details = "Lead and deliver complex engineering systems"
+        
+        [[params.skills.list]]
+        title = "Professional"
+        [[params.skills.list.items]]
+        details = "Effective communication"
+        [[params.skills.list.items]]
+        details = "Team player"
+        [[params.skills.list.items]]
+        details = "Critical thinker"
+        [[params.skills.list.items]]
+        details = "Strong problem solver"
+        [[params.skills.list.items]]
+        details = "Good time management"
+
+        [[params.skills.list]]
+        title = "Metrics (2023)"
+        [[params.skills.list.items]]
+        details = "h-index: 15"
+        [[params.skills.list.items]]
+        details = "Manuscripts: 33"
+        [[params.skills.list.items]]
+        details = "Total Citations: 590"
+        [[params.skills.list.items]]
+        details = "Conference presentations: 25"
+        
+
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "PhD in Telecommunications Engineering (Nano-satellite design and Remote Sensing)"
+        university = "Universitat Politècnica de Catalunya"
+        dates = "2017 - 2021"
+        [[params.education.list]]
+        degree = "MSc in Telecommunications Engineering"
+        university = "Universitat Politècnica de Catalunya"
+        dates = "2014 - 2017"
+        [[params.education.list]]
+        degree = "BSc in Telecommunications Systems Engineering"
+        university = "Universitat Politècnica de Catalunya"
+        dates = "2010 - 2014"
+
+
+    [params.awards]
+        enable = true
+
+        [[params.awards.list]]
+        name = "Best PhD thesis"
+        body = "Three awards: UPC, IEEC, and IEEE GRSS"
+        date = "2022 - 2023"
+        [[params.awards.list]]
+        name = "Group award for the first airborne campaign of a spectrometer for atmospheric sounding"
+        body = "National Aeronautics and Space Administration"
+        date = "2023"
+        [[params.awards.list]]
+        name = "Group award for the implementation of a spectrometer for atmospheric sounding"
+        body = "Jet Propulsion Laboratory"
+        date = "2022"
+        [[params.awards.list]]
+        name = "Group award for the contributions to cis-lunar space monitoring"
+        body = "Jet Propulsion Laboratory"
+        date = "2022"
+        [[params.awards.list]]
+        name = "13a Edició Duran-Farrell"
+        body = "Universitat Politècnica de Catalunya"
+        date = "2022"
+
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "Spanish"
+        level = "Native"
+        [[params.languages.list]]
+        name = "Catalan"
+        level = "Native"
+        [[params.languages.list]]
+        name = "English"
+        level = "Professional"
+
+
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "CrossFit"
+        [[params.interests.list]]
+        name = "Sailing"
+        [[params.interests.list]]
+        name = "Hiking"
+        [[params.interests.list]]
+        name = "Space"
+
+
+
+    [params.summary]
+        enable = true
+        text = "Telecommunications engineer with B.Sc., M.Sc., and Ph.D. degrees from UPC BarcelonaTech. Led remote sensing payloads for satellite missions at UPC NanoSat Lab. Collaborated with ESA on projects like BEXUS 19, Fly Your Satellite II, and 3Cat-5/FSSCat. Partook in GNSS-R experiment during MOSAiC. Researcher at NASA's JPL, focusing on GSSR signal processing, microwave radiometry, polarimetric GNSS-R, and innovative Earth observation instruments. Passionate about advancing space technology and instrumentation. Interested in quantum technologies for novel instruments."
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Research Technologist"
+        dates = "2022 - Present"
+        company = "Jet Propulsion Laboratory"
+            [[params.experience.list.items]]
+            details = "Research and Development: Research new technologies, tools, and methodologies to improve existing JPL systems. Incorporate cutting-edge practices into assigned projects"
+            [[params.experience.list.items]]
+            details = "Implementation and Troubleshooting: Implementing technology solutions, whether it's software applications or hardware infrastructure. Troubleshoot technical issues and resolve any problems that may arise during the implementation or regular use of the implemented technology"
+            [[params.experience.list.items]]
+            details = "Collaboration and Communication: Work closely with teams of scientist, engineers, managers, and clients to understand product requirements, communicate technical details, and ensure the integration of new technology"
+
+        [[params.experience.list]]
+        title = "Post-doctoral Fellow"
+        dates = "2021 - 2022"
+        company = "Jet Propulsion Laboratory"
+            [[params.experience.list.items]]
+            details = "Lead the develoment and implementation of passive mmWave remote sensing systems"
+            [[params.experience.list.items]]
+            details = "Lead the development of novel algorithms for future passive microwave remote sensing systems"
+
+        [[params.experience.list]]
+        title = "Pre-doctoral Fellow"
+        dates = "2017 - 2021"
+        company = "Universitat Politècnica de Catalunya"
+            [[params.experience.list.items]]
+            details = "Design, implement, and test development of several CubeSat mission runned by the UPC NanoSat-Lab"
+            [[params.experience.list.items]]
+            details = "Laboratory lead for remote sensing and software develoment, helping BSc. and MSc. students and Ph.D. candidates to excel in their future work"
+            [[params.experience.list.items]]
+            details = "Lead the retrieval of geophysical parameters using the Microwave Interferometric Reflectometer"
+            [[params.experience.list.items]]
+            details = "Co-mentor of MSc. and BSc. theses"
+
+        [[params.experience.list]]
+        title = "Research Assistant"
+        dates = "2014 - 2017"
+        company = "Universitat Politècnica de Catalunya"
+            [[params.experience.list.items]]
+            details = "Implementation of satellite telemetry tracking and command (TT&C) ground station at UPC and Montsec observatory"
+            [[params.experience.list.items]]
+            details = "Development of communication systems for nanosatellites (3Cat-1, 3Cat-2, and 3Cat-4)"
+
+        [[params.experience.list]]
+        title = "IT Assistant"
+        dates = "2012"
+        company = "Col.legi Major Universitari Ramón Llull"
+            [[params.experience.list.items]]
+            details = "Support IT team for WiFi deployment in a 250 student housing"
+
+        [[params.experience.list]]
+        title = "Administrative Assistant"
+        dates = "Summer 2009 and 2010"
+        company = "Trans-Illes S.C."
+            [[params.experience.list.items]]
+            details = "Summer job with administrative and archive tasks"
+        
+
+
+    [params.projects]
+        enable = true
+
+        [[params.projects.list]]
+        title = "Cold Atom Laboratory (CAL)"
+        meta = "Jet Propulsion Laboratory"
+        [[params.projects.list.items]]
+        details="Several deliveries to the International Space Station (ISS) for maintenance tasks on the Cold Atom Laboratory science module"
+        [[params.projects.list.items]]
+        details="Electrical Engineering team supporting science operations"
+
+        [[params.projects.list]]
+        title = "SMAP-Reflectometry"
+        meta = "Jet Propulsion Laboratory"
+            [[params.projects.list.items]]
+            details="Responsible for L1b to L2 processing chains. Softwares written in C, Python, Bash, and MATLAB"
+            [[params.projects.list.items]]
+            details="Conference presentations, manuscript production (5 as first author)"
+
+        [[params.projects.list]]
+        title = "Goldstone Solar System Radar (GSSR)"
+        meta = "Jet Propulsion Laboratory"
+            [[params.projects.list.items]]
+            details="Signal processing: enhance GSSR capabilities by the implementation of several techniques, as polarimetric retrievals, enhanced frequency processing, and parallelization techniques for higher throughput"
+            [[params.projects.list.items]]
+            details="Contributions to Cis-Lunar orbital debris observations"
+
+        [[params.projects.list]]
+        title = "Microwave Temperature and Humidity Probe (MTHP)"
+        meta = "Jet Propulsion Laboratory"
+            [[params.projects.list.items]]
+            details="Design of high resolution 60 GHz digital spectrometer for atmospheric sounding"
+            [[params.projects.list.items]]
+            details="Implementation and characterization of the instrument"
+            [[params.projects.list.items]]
+            details="Flight campaign lead in Kona, Hawaii"
+            [[params.projects.list.items]]
+            details="Receipient of a JPL internal award and a NASA award for the first flight of a high resolution spectrometer"
+
+        [[params.projects.list]]
+        title = "Smart Ice Cloud Sensing (SMICES)"
+        meta = "Jet Propulsion Laboratory"
+            [[params.projects.list.items]]
+            details="Design and implementation of a miniaturized 8 GHz analog spectrometer including detection, amplification, and filtering"
+            [[params.projects.list.items]]
+            details="Design and implementation of a power distribution board for next versions of digital spectrometers"
+
+        [[params.projects.list]]
+        title = "FSSCat"
+        meta = "Universitat Politècnica de Catalunya"
+            [[params.projects.list.items]]
+            details="2017 ESA S^3 and Copernicus Master winner"
+            [[params.projects.list.items]]
+            details="First ESA third-party mission to contribute to Copernicus program"        
+            [[params.projects.list.items]]
+            details="Mission definition, requirement, design documents, test plans, and frequency coordination with other countries"
+            [[params.projects.list.items]]
+            details="Payload lead from PDR to subsystem delivery to science lead for geophysical parameter retrieval including soil moisture, wind speed over the ocean, sea surface salinity, and sea-ice characterization"
+
+        [[params.projects.list]]
+        title = "MOSAiC"
+        meta = "Universitat Politècnica de Catalunya"
+            [[params.projects.list.items]]
+            details="Design and implementation of a scientific instrument for sea-ice thickness detection, deployed in the Arctic Ocean in 2020"
+            [[params.projects.list.items]]
+            details="Responsible for algorithms development to conduct scientific retrievals"
+
+        [[params.projects.list]]
+        title = "3Cat-4"
+        meta = "Universitat Politècnica de Catalunya"
+            [[params.projects.list.items]]
+            details="Part of ESA Fly Your Satellite 2 program"
+            [[params.projects.list.items]]
+            details="Mission definition, requirement, design documents, test plans"
+            [[params.projects.list.items]]
+            details="Payload lead from PDR to subsystem delivery"
+            [[params.projects.list.items]]
+            details="Software development team for C&DH"
+            [[params.projects.list.items]]
+            details="Lead on TT&C on-board and on-ground"
+
+
+    [params.information]
+        enable = true
+
+        [[params.information.list]]
+        title = "Selected Publications"
+        [[params.information.list.items]]
+        details = "J. F. Munoz-Martin et al., “In-Orbit Validation of the FMPL-2 Instrument—The GNSS-R and L-Band Microwave Radiometer Payload of the FSSCat Mission,” Remote Sensing, vol. 13, no. 1, p. 121, Dec. 2020, doi: 10.3390/rs13010121. [Online]. Available: http://dx.doi.org/10.3390/rs13010121"
+        [[params.information.list.items]]
+        details = "J. F. Munoz-Martin et al., “The Flexible Microwave Payload-2: A SDR-Based GNSS-Reflectometer and L-Band Radiometer for CubeSats,” in IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, vol. 13, pp. 1298-1311, 2020, doi: 10.1109/JSTARS.2020.2977959. [Online]. Available: http://dx.doi.org/10.1109/JSTARS.2020.2977959"
+        [[params.information.list.items]]
+        details = "J. F. Munoz-Martin et al., “Stokes Parameters Retrieval and Calibration of Hybrid Compact Polarimetric GNSS-R Signals,” in IEEE Transactions on Geoscience and Remote Sensing, vol. 60, pp. 1-11, 2022, Art no. 5113911, doi: 10.1109/TGRS.2022.3178578. [Online]. Available: http://dx.doi.org/10.1109/TGRS.2022.3178578"
+        [[params.information.list.items]]
+        details = "J. F. Munoz-Martin et al., “Analysis of polarimetric GNSS-R Stokes parameters of the Earth’s land surface,” Remote Sensing of Environment, vol. 287. Elsevier BV, p. 113491, Mar. 2023. doi: 10.1016/j.rse.2023.113491. [Online]. Available: http://dx.doi.org/10.1016/j.rse.2023.113491"
+        [[params.information.list]]
+        title = "Other Participations"
+        [[params.information.list.items]]
+        details = "Member of the IEEE Geoscience and Remote Sensing Society (GRSS)"
+        [[params.information.list.items]]
+        details = "Local Organizing Committee and Poster chair for the 2023 International Geoscience and Remote Sensing Symposium (IGARSS)"
+        [[params.information.list.items]]
+        details = "Member of “Associació de Radio Aficionants per la Novetat, l'Exploració i la Mesura”"
+        [[params.information.list.items]]
+        details = "Active reviewer in IEEE, MDPI, and Elsevier journals"
+        [[params.information.list.items]]
+        details = "Co-guest Editor in MDPI Remote Sensing"
+
+        
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fa-brands fa-linkedin fa-2xl"
+        url = "//linkedin.com/in/joan-francesc-munoz-martin"
+        title = "LinkedIn"
+        [[params.social.list]]
+        icon = "fa-brands fa-twitter fa-2xl"
+        url = "//twitter.com/juanfmun"
+        title = "@juanfmun"
+        [[params.social.list]]
+        icon = "fa-brands fa-orcid fa-2xl"
+        url = "//orcid.org/0000-0002-6441-6676"
+        title = "OrcID"
+        [[params.social.list]]
+        icon = "fa-brands fa-researchgate fa-2xl"
+        url = "//www.researchgate.net/profile/Joan-Munoz-Martin"
+        title = "ResearchGate"
+        [[params.social.list]]
+        icon = "fa-brands fa-github fa-2xl"
+        url = "//github.com/juan0fran"
+        title = "GitHub"
+
+
+
+

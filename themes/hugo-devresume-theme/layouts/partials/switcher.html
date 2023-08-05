@@ -1,0 +1,52 @@
+<!-- {{- if and .Site.IsMultiLingual (not .Site.Params.DisableLanguageSwitchingButton)}}
+<select id="select-language" onchange="location = this.value;">
+	{{ $siteLanguages := .Site.Languages}}
+	{{ $pageLang := .Page.Lang}}
+	{{ range .Page.AllTranslations }}
+	  {{ $translation := .}}
+	  {{ range $siteLanguages }}
+	    {{ if eq $translation.Lang .Lang }}
+	      {{ if eq $pageLang .Lang}}
+	        <option id="{{ $translation.Language }}" value="{{ $translation.Permalink }}" selected>{{ .LanguageName }}</option>
+	      {{ else }}
+	        <option id="{{ $translation.Language }}" value="{{ $translation.Permalink }}">{{ .LanguageName }}</option>
+	      {{ end }}
+	    {{ end }}
+	  {{ end }}
+	{{ end }}
+</select>
+{{- end }} -->
+
+<!-- {{ if .IsTranslated }}
+{{ range .Translations }}
+    <li>
+		<span class="language-switcher" style=""> 
+			<i class="fa fa-globe"></i>
+			<a href ="{{ .Permalink }}" style="">{{ .Lang }} {{ if .IsPage }} {{ end }} </a>
+		</span>
+    </li>
+{{ end}}
+{{ end }} -->
+
+<ul class="list-unstyled mb-3">
+    {{ if .IsTranslated -}}
+    {{ range .Translations }}
+    <li class="mb-3">
+        <i class="fa-solid fa-language fa-2xl"></i>
+        <a rel="alternate" href="{{ .RelPermalink }}" hreflang="{{ .Lang }}" lang="{{ .Lang }}">{{ .Language.LanguageName }}</a>
+    </li>
+    {{ end -}}
+    {{ else -}}
+    {{ range .Site.Languages -}}
+    {{ if ne $.Site.Language.Lang .Lang }}
+    <li class="mb-3">
+        <i class="fa-solid fa-language fa-2xl"></i>
+        <a rel="alternate" href="{{ .Lang | relURL }}" hreflang="{{ .Lang }}" lang="{{ .Lang }}">{{ .Language.LanguageName }}</a>
+    </li>
+    {{ end -}}
+    {{ end -}}
+    {{ end -}}
+</ul>
+
+
+
