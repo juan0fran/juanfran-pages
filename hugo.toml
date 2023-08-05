@@ -651,7 +651,7 @@ defaultContentLanguage = 'en'
                 enable = true
 
                 [[languages.es.params.information.list]]
-                title = "Selected Publications"
+                title = "Publicaciones seleccionadas"
                 [[languages.es.params.information.list.items]]
                 details = "J. F. Munoz-Martin et al., “In-Orbit Validation of the FMPL-2 Instrument—The GNSS-R and L-Band Microwave Radiometer Payload of the FSSCat Mission,” Remote Sensing, vol. 13, no. 1, p. 121, Dec. 2020, doi: 10.3390/rs13010121. [Online]. Available: http://dx.doi.org/10.3390/rs13010121"
                 [[languages.es.params.information.list.items]]
@@ -661,17 +661,17 @@ defaultContentLanguage = 'en'
                 [[languages.es.params.information.list.items]]
                 details = "J. F. Munoz-Martin et al., “Analysis of polarimetric GNSS-R Stokes parameters of the Earth’s land surface,” Remote Sensing of Environment, vol. 287. Elsevier BV, p. 113491, Mar. 2023. doi: 10.1016/j.rse.2023.113491. [Online]. Available: http://dx.doi.org/10.1016/j.rse.2023.113491"
                 [[languages.es.params.information.list]]
-                title = "Other Participations"
+                title = "Otros"
                 [[languages.es.params.information.list.items]]
-                details = "Member of the IEEE Geoscience and Remote Sensing Society (GRSS)"
+                details = "Miembro de IEEE Geoscience and Remote Sensing Society (GRSS)"
                 [[languages.es.params.information.list.items]]
-                details = "Local Organizing Committee and Poster chair for the 2023 International Geoscience and Remote Sensing Symposium (IGARSS)"
+                details = "Comité Organizador Local y Coordinador de Pósters para el Simposio Internacional de Geociencias y Teledetección (IGARSS) 2023"
                 [[languages.es.params.information.list.items]]
-                details = "Member of “Associació de Radio Aficionants per la Novetat, l'Exploració i la Mesura”"
+                details = "Miembro de la “Associació de Radio Aficionants per la Novetat, l'Exploració i la Mesura”"
                 [[languages.es.params.information.list.items]]
-                details = "Active reviewer in IEEE, MDPI, and Elsevier journals"
+                details = "Revisor activo para las editorales de IEEE, MDPI, and Elsevier journals"
                 [[languages.es.params.information.list.items]]
-                details = "Co-guest Editor in MDPI Remote Sensing"
+                details = "Co-Editor en la revista MDPI Remote Sensing"
 
                 
             [languages.es.params.social]
