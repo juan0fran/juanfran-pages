@@ -149,7 +149,7 @@ defaultContentLanguage = 'en'
                 [[languages.en.params.interests.list]]
                 name = "Sailing"
                 [[languages.en.params.interests.list]]
-                name = "Hiking"
+                name = "Montañismo"
                 [[languages.en.params.interests.list]]
                 name = "Space"
 
@@ -465,7 +465,7 @@ defaultContentLanguage = 'en'
                 body = "Jet Propulsion Laboratory"
                 date = "2022"
                 [[languages.es.params.awards.list]]
-                name = "Premio d egrupo por las contribuciones a monitorizas el espacio Cis-Lunar"
+                name = "Premio d egrupo por las contribuciones a monitorizar el espacio Cis-Lunar"
                 body = "Jet Propulsion Laboratory"
                 date = "2022"
                 [[languages.es.params.awards.list]]
@@ -616,7 +616,7 @@ defaultContentLanguage = 'en'
                 title = "FSSCat"
                 meta = "Universitat Politècnica de Catalunya"
                     [[languages.es.params.projects.list.items]]
-                    details="2017 ESA S^3 and Copernicus Master winner"
+                    details="Ganadores del 2017 ESA S^3 y Copernicus Master"
                     [[languages.es.params.projects.list.items]]
                     details="Primera misión de terceros de la ESA que contribuye al programa Copernicus"        
                     [[languages.es.params.projects.list.items]]
