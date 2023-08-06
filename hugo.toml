@@ -83,12 +83,11 @@ defaultContentLanguage = 'en'
                 details = "Conference presentations: 25"
                 
 
-
             [languages.en.params.education]
                 enable = true
 
                 [[languages.en.params.education.list]]
-                degree = "PhD in Telecommunications Engineering (Nano-satellite design and Remote Sensing)"
+                degree = "PhD in Telecommunications Engineering (Nano-satellite design and Remote Sensing) with honors (Cum Laude)"
                 university = "Universitat Politècnica de Catalunya"
                 dates = "2017 - 2021"
                 [[languages.en.params.education.list]]
@@ -124,6 +123,10 @@ defaultContentLanguage = 'en'
                 name = "13a Edició Duran-Farrell"
                 body = "Universitat Politècnica de Catalunya"
                 date = "2022"
+                [[languages.en.params.awards.list]]
+                name = "Top of my class in BSc"
+                body = "Universitat Politècnica de Catalunya"
+                date = "2014"
 
 
             [languages.en.params.languages]
@@ -149,10 +152,9 @@ defaultContentLanguage = 'en'
                 [[languages.en.params.interests.list]]
                 name = "Sailing"
                 [[languages.en.params.interests.list]]
-                name = "Montañismo"
+                name = "Hiking"
                 [[languages.en.params.interests.list]]
                 name = "Space"
-
 
 
             [languages.en.params.summary]
@@ -203,13 +205,6 @@ defaultContentLanguage = 'en'
                     details = "Implementation of satellite telemetry tracking and command (TT&C) ground station at UPC and Montsec observatory"
                     [[languages.en.params.experience.list.items]]
                     details = "Development of communication systems for nanosatellites (3Cat-1, 3Cat-2, and 3Cat-4)"
-
-                [[languages.en.params.experience.list]]
-                title = "IT Assistant"
-                dates = "2012"
-                company = "Col.legi Major Universitari Ramón Llull"
-                    [[languages.en.params.experience.list.items]]
-                    details = "Support IT team for WiFi deployment in a 250 student housing"
 
                 [[languages.en.params.experience.list]]
                 title = "Administrative Assistant"
@@ -379,7 +374,7 @@ defaultContentLanguage = 'en'
 
             [languages.es.params.contact]
                 enable = true
-                location = "Pasadena (USA) | Mallorca (Spain)"
+                location = "Pasadena (USA) | Mallorca (España)"
 
                 [[languages.es.params.contact.list]]
                 icon = "fas fa-envelope-square"
@@ -403,9 +398,9 @@ defaultContentLanguage = 'en'
                 [[languages.es.params.skills.list.items]]
                 details = "Altium"
                 [[languages.es.params.skills.list.items]]
-                details = "Design, implement, and validation of embedded systems for science and technology advancements"
+                details = "Diseño, implementación y validación de diversos tipos de sistemas de ingeniería (sistemas encastados, estaciones base, etc.)"
                 [[languages.es.params.skills.list.items]]
-                details = "Lead and deliver complex engineering systems"
+                details = "Liderazgo y entrega de sistemas de ingeniería complejos"
                 
                 [[languages.es.params.skills.list]]
                 title = "Profesionales"
@@ -436,7 +431,7 @@ defaultContentLanguage = 'en'
                 enable = true
 
                 [[languages.es.params.education.list]]
-                degree = "Doctor en Ingenería de Telecomunicaciones (Diseño de Nano-satellites y teledetección)"
+                degree = "Doctor en Ingenería de Telecomunicaciones (Diseño de Nano-satellites y teledetección) con honores (Cum Laude)"
                 university = "Universitat Politècnica de Catalunya"
                 dates = "2017 - 2021"
                 [[languages.es.params.education.list]]
@@ -472,6 +467,10 @@ defaultContentLanguage = 'en'
                 name = "13a Edició Duran-Farrell"
                 body = "Universitat Politècnica de Catalunya"
                 date = "2022"
+                [[languages.es.params.awards.list]]
+                name = "Primero de la promoción de grado"
+                body = "Universitat Politècnica de Catalunya"
+                date = "2014"
 
 
             [languages.es.params.languages]
@@ -518,7 +517,7 @@ defaultContentLanguage = 'en'
                     details = "Colaboración y Comunicación: Trabajar estrechamente con equipos de científicos, ingenieros, gerentes y clientes para comprender los requisitos del producto, comunicar detalles técnicos y garantizar la integración de nuevas tecnologías."
 
                 [[languages.es.params.experience.list]]
-                title = "Post-doctorado"
+                title = "Investigador Post-doctoral"
                 dates = "2021 - 2022"
                 company = "Jet Propulsion Laboratory"
                     [[languages.es.params.experience.list.items]]
@@ -527,7 +526,7 @@ defaultContentLanguage = 'en'
                     details = "Liderar el desarrollo de algoritmos novedosos para futuros sistemas pasivos de detección remota de microondas."
 
                 [[languages.es.params.experience.list]]
-                title = "Estudiante Pre-doctoral"
+                title = "Investigador Pre-doctoral"
                 dates = "2017 - 2021"
                 company = "Universitat Politècnica de Catalunya"
                     [[languages.es.params.experience.list.items]]
@@ -547,14 +546,7 @@ defaultContentLanguage = 'en'
                     details = "Implementación de una estación terrena de seguimiento y comando de telemetría satelital (TT&C) en la UPC y el Observatorio Montsec"
                     [[languages.es.params.experience.list.items]]
                     details = "Desarrollo de sistemas de comunicaciones para nanosatélites (3Cat-1, 3Cat-2, and 3Cat-4)"
-
-                [[languages.es.params.experience.list]]
-                title = "Asistente de IT"
-                dates = "2012"
-                company = "Col.legi Major Universitari Ramón Llull"
-                    [[languages.es.params.experience.list.items]]
-                    details = "Apoyo al equipo de IT para la implementación de WiFi en un alojamiento para 250 estudiantes"
-
+                
                 [[languages.es.params.experience.list]]
                 title = "Asistente Administrativo"
                 dates = "Veranos 2009 y 2010"
