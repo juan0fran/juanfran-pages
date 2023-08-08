@@ -25,7 +25,7 @@ defaultContentLanguage = 'en'
             [languages.en.params.profile]
                 enable = true
                 name = "Joan F. Muñoz Martin"
-                tagline = "Researcher, Technologist, Engineer"
+                tagline = "Data Scientist, Technologist, Engineer"
                 avatar = "avatar2.jpg"
 
             [languages.en.params.contact]
@@ -48,15 +48,15 @@ defaultContentLanguage = 'en'
                 [[languages.en.params.skills.list]]
                 title = "Technical"
                 [[languages.en.params.skills.list.items]]
-                details = "C/C++/Python/GoLang/MATLAB"
+                details = "C/C++/Python/GoLang/MATLAB/Rust"
                 [[languages.en.params.skills.list.items]]
                 details = "Node.js/PostgreSQL/MySQL/Git"
                 [[languages.en.params.skills.list.items]]
                 details = "Altium"
                 [[languages.en.params.skills.list.items]]
-                details = "Design, implement, and validation of embedded systems for science and technology advancements"
+                details = "Design, implement, and validation of complex engineering systems for science and technology advancements"
                 [[languages.en.params.skills.list.items]]
-                details = "Lead and deliver complex engineering systems"
+                details = "Data Scientist with proficient knowledge of databases, interfaces, API, data management, and artificial intelligence"
                 
                 [[languages.en.params.skills.list]]
                 title = "Professional"
@@ -369,7 +369,7 @@ defaultContentLanguage = 'en'
             [languages.es.params.profile]
                 enable = true
                 name = "Joan F. Muñoz Martin"
-                tagline = "Investigador, Tecnólogo, Ingeniero"
+                tagline = "Científico de datos, Tecnólogo, Ingeniero"
                 avatar = "avatar2.jpg"
 
             [languages.es.params.contact]
@@ -400,7 +400,7 @@ defaultContentLanguage = 'en'
                 [[languages.es.params.skills.list.items]]
                 details = "Diseño, implementación y validación de diversos tipos de sistemas de ingeniería (sistemas encastados, estaciones base, etc.)"
                 [[languages.es.params.skills.list.items]]
-                details = "Liderazgo y entrega de sistemas de ingeniería complejos"
+                details = "Científico de datos (data scientist) con amplia experiencia en manejo de datos e inteligencia artificial"
                 
                 [[languages.es.params.skills.list]]
                 title = "Profesionales"
