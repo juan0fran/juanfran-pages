@@ -102,23 +102,23 @@ defaultContentLanguage = 'en'
 
             [languages.en.params.awards]
                 enable = true
-
+                [[languages.en.params.awards.list]]
+                name = "Voyager Award for outstanding engineering practices in the Cold Atom Laboratory"
+                body = "Jet Propulsion Laboratory"
+                date = "2023"
                 [[languages.en.params.awards.list]]
                 name = "Best PhD thesis"
                 body = "Three awards: UPC, IEEC, and IEEE GRSS"
                 date = "2022 - 2023"
                 [[languages.en.params.awards.list]]
-                name = "Group award for the first airborne campaign of a spectrometer for atmospheric sounding"
+                name = "Group achivement award for the first airborne campaign of a spectrometer for atmospheric sounding"
                 body = "National Aeronautics and Space Administration"
                 date = "2023"
                 [[languages.en.params.awards.list]]
-                name = "Group award for the implementation of a spectrometer for atmospheric sounding"
+                name = "Three Group Awards"
                 body = "Jet Propulsion Laboratory"
-                date = "2022"
-                [[languages.en.params.awards.list]]
-                name = "Group award for the contributions to cis-lunar space monitoring"
-                body = "Jet Propulsion Laboratory"
-                date = "2022"
+                date = "2022-2023"
+
                 [[languages.en.params.awards.list]]
                 name = "13a Edició Duran-Farrell"
                 body = "Universitat Politècnica de Catalunya"
@@ -143,10 +143,8 @@ defaultContentLanguage = 'en'
                 level = "Professional"
 
 
-
             [languages.en.params.interests]
                 enable = true
-
                 [[languages.en.params.interests.list]]
                 name = "CrossFit"
                 [[languages.en.params.interests.list]]
@@ -155,7 +153,6 @@ defaultContentLanguage = 'en'
                 name = "Hiking"
                 [[languages.en.params.interests.list]]
                 name = "Space"
-
 
             [languages.en.params.summary]
                 enable = true
@@ -169,9 +166,13 @@ defaultContentLanguage = 'en'
                 dates = "2022 - Present"
                 company = "Jet Propulsion Laboratory"
                     [[languages.en.params.experience.list.items]]
+                    details = "Principal Investigator for the SmallSat Ice and Snow Thickness monitoring project (SITS)"
+                    [[languages.en.params.experience.list.items]]
+                    details = "Lead Process Engineer in the development of Cold Atom Laboratory hardware replacementes"
+                    [[languages.en.params.experience.list.items]]
                     details = "Research and Development: Research new technologies, tools, and methodologies to improve existing JPL systems. Incorporate cutting-edge practices into assigned projects"
                     [[languages.en.params.experience.list.items]]
-                    details = "Implementation and Troubleshooting: Implementing technology solutions, whether it's software applications or hardware infrastructure. Troubleshoot technical issues and resolve any problems that may arise during the implementation or regular use of the implemented technology"
+                    details = "Implementing novel technology solutions, whether it's software applications or hardware infrastructure"
                     [[languages.en.params.experience.list.items]]
                     details = "Collaboration and Communication: Work closely with teams of scientist, engineers, managers, and clients to understand product requirements, communicate technical details, and ensure the integration of new technology"
 
@@ -361,7 +362,7 @@ defaultContentLanguage = 'en'
             languageDirection = 'ltr'
         
             author = "Joan Francesc Muñoz Martin"
-            description = "Resume and Personal webpage"
+            description = "Página personal"
 
             primaryColor = "#2986cc"
             textPrimaryColor = "#4b4b4b"
@@ -446,7 +447,10 @@ defaultContentLanguage = 'en'
 
             [languages.es.params.awards]
                 enable = true
-
+                [[languages.es.params.awards.list]]
+                name = "Premio Voyager por las contribuciones en ingeniería al proyecto `Cold Atom Laboratory`"
+                body = "Jet Propulsion Laboratory"
+                date = "2023"
                 [[languages.es.params.awards.list]]
                 name = "Mejor Tesis de Doctorado"
                 body = "Premiado por: UPC, IEEC, and IEEE GRSS"
@@ -456,13 +460,9 @@ defaultContentLanguage = 'en'
                 body = "National Aeronautics and Space Administration"
                 date = "2023"
                 [[languages.es.params.awards.list]]
-                name = "Premio de grupo por el diseño e implementación de un espectrómetro en banda milimétrica para monitorizar la atmósfera"
+                name = "Tres premios de grupo"
                 body = "Jet Propulsion Laboratory"
-                date = "2022"
-                [[languages.es.params.awards.list]]
-                name = "Premio d egrupo por las contribuciones a monitorizar el espacio Cis-Lunar"
-                body = "Jet Propulsion Laboratory"
-                date = "2022"
+                date = "2022-2023"
                 [[languages.es.params.awards.list]]
                 name = "13a Edició Duran-Farrell"
                 body = "Universitat Politècnica de Catalunya"
@@ -509,6 +509,10 @@ defaultContentLanguage = 'en'
                 title = "Tecnólogo"
                 dates = "2022 - Actual"
                 company = "Jet Propulsion Laboratory"
+                    [[languages.en.params.experience.list.items]]
+                    details = "Investigador Principal del proyecto `SmallSat Ice and Snow Thickness monitoring (SITS)`"
+                    [[languages.en.params.experience.list.items]]
+                    details = "Ingeniero lider en el desarrollo de nuevas partes para el `Cold Atom Laboratory`"
                     [[languages.es.params.experience.list.items]]
                     details = "Investigación y Desarrollo: Investigar nuevas tecnologías, herramientas y metodologías para mejorar los sistemas existentes en el JPL. Incorporar prácticas de vanguardia en los proyectos asignados"
                     [[languages.es.params.experience.list.items]]
