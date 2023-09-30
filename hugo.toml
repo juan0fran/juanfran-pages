@@ -156,7 +156,7 @@ defaultContentLanguage = 'en'
 
             [languages.en.params.summary]
                 enable = true
-                text = "Telecommunications engineer with B.Sc., M.Sc., and Ph.D. degrees from UPC BarcelonaTech. Led remote sensing payloads for satellite missions at UPC NanoSat Lab. Collaborated with ESA on projects like BEXUS 19, Fly Your Satellite II, and 3Cat-5/FSSCat. Partook in GNSS-R experiment during MOSAiC. Researcher at NASA's JPL, focusing on GSSR signal processing, microwave radiometry, polarimetric GNSS-R, and innovative Earth observation instruments. Passionate about advancing space technology and instrumentation. Interested in quantum technologies for novel instruments."
+                text = "Telecommunications engineer with B.Sc., M.Sc., and Ph.D. degrees from UPC BarcelonaTech. Led remote sensing payloads for satellite missions at UPC NanoSat Lab. Collaborated with ESA on projects like BEXUS 19, Fly Your Satellite II, and 3Cat-5/FSSCat. Partook in GNSS-R experiment during MOSAiC. Researcher at NASA's JPL, focusing on GSSR signal processing, microwave radiometry, polarimetric GNSS-R, and innovative Earth observation instruments. Passionate about advancing space technology and instrumentation. Currently developing technology advances for future quantum instruments."
 
             [languages.en.params.experience]
                 enable = true
@@ -500,7 +500,7 @@ defaultContentLanguage = 'en'
 
             [languages.es.params.summary]
                 enable = true
-                text = "Ingeniero de Telecomunicaciones con grado, máster y doctorado de la UPC BarcelonaTech. Lideré cargas útiles de teledetección para misiones satelitales en el Laboratorio UPC NanoSat. Colaboré con la ESA en proyectos como BEXUS 19, Fly Your Satellite II y 3Cat-5/FSSCat. Participé en el experimento GNSS-R durante MOSAiC. Investigador en el JPL de la NASA, enfocado en el procesamiento de señales GSSR, radiometría de microondas, GNSS-R polarimétrico e instrumentos innovadores de observación de la Tierra. Apasionado por el avance de la tecnología espacial y la instrumentación. Interesado en tecnologías cuánticas para instrumentos novedosos."
+                text = "Ingeniero de Telecomunicaciones con grado, máster y doctorado de la UPC BarcelonaTech. Lideré cargas útiles de teledetección para misiones satelitales en el Laboratorio UPC NanoSat. Colaboré con la ESA en proyectos como BEXUS 19, Fly Your Satellite II y 3Cat-5/FSSCat. Participé en el experimento GNSS-R durante MOSAiC. Investigador en el JPL de la NASA, enfocado en el procesamiento de señales GSSR, radiometría de microondas, GNSS-R polarimétrico e instrumentos innovadores de observación de la Tierra. Apasionado por el avance de la tecnología espacial y la instrumentación. Actualmente desarrollando nuevas tecnologías para futuros instrumentos cuánticos."
 
             [languages.es.params.experience]
                 enable = true
