@@ -506,13 +506,13 @@ defaultContentLanguage = 'en'
                 enable = true
 
                 [[languages.es.params.experience.list]]
-                title = "Tecnólogo"
+                title = "Investigador Tecnológico"
                 dates = "2022 - Actual"
                 company = "Jet Propulsion Laboratory"
                     [[languages.en.params.experience.list.items]]
-                    details = "Investigador Principal del proyecto `SmallSat Ice and Snow Thickness monitoring (SITS)`"
+                    details = "Investigador Principal del proyecto SmallSat Ice and Snow Thickness monitoring (SITS)"
                     [[languages.en.params.experience.list.items]]
-                    details = "Ingeniero lider en el desarrollo de nuevas partes para el `Cold Atom Laboratory`"
+                    details = "Ingeniero lider en el desarrollo de nuevas partes para el `Cold Atom Laboratory"
                     [[languages.es.params.experience.list.items]]
                     details = "Investigación y Desarrollo: Investigar nuevas tecnologías, herramientas y metodologías para mejorar los sistemas existentes en el JPL. Incorporar prácticas de vanguardia en los proyectos asignados"
                     [[languages.es.params.experience.list.items]]
