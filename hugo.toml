@@ -448,7 +448,7 @@ defaultContentLanguage = 'en'
             [languages.es.params.awards]
                 enable = true
                 [[languages.es.params.awards.list]]
-                name = "Premio Voyager por las contribuciones en ingeniería al proyecto `Cold Atom Laboratory`"
+                name = "Premio Voyager por las contribuciones en ingeniería al proyecto Cold Atom Laboratory"
                 body = "Jet Propulsion Laboratory"
                 date = "2023"
                 [[languages.es.params.awards.list]]
@@ -512,7 +512,7 @@ defaultContentLanguage = 'en'
                     [[languages.en.params.experience.list.items]]
                     details = "Investigador Principal del proyecto SmallSat Ice and Snow Thickness monitoring (SITS)"
                     [[languages.en.params.experience.list.items]]
-                    details = "Ingeniero lider en el desarrollo de nuevas partes para el `Cold Atom Laboratory"
+                    details = "Ingeniero lider en el desarrollo de nuevas partes para el Cold Atom Laboratory"
                     [[languages.es.params.experience.list.items]]
                     details = "Investigación y Desarrollo: Investigar nuevas tecnologías, herramientas y metodologías para mejorar los sistemas existentes en el JPL. Incorporar prácticas de vanguardia en los proyectos asignados"
                     [[languages.es.params.experience.list.items]]
@@ -566,7 +566,7 @@ defaultContentLanguage = 'en'
                 title = "Cold Atom Laboratory (CAL)"
                 meta = "Jet Propulsion Laboratory"
                 [[languages.es.params.projects.list.items]]
-                details="Varias entregas a la Estación Espacial Internacional (ISS) para tareas de mantenimiento en el módulo científico Cold Atom Laboratory."
+                details="Varias entregas a la Estación Espacial Internacional (ISS) para tareas de mantenimiento del módulo científico Cold Atom Laboratory."
                 [[languages.es.params.projects.list.items]]
                 details="Equipo de Ingeniería Eléctrica que brinda apoyo a las operaciones científicas"
 
