@@ -78,7 +78,7 @@ defaultContentLanguage = 'en'
                 [[languages.en.params.skills.list.items]]
                 details = "Manuscripts: 33"
                 [[languages.en.params.skills.list.items]]
-                details = "Total Citations: 590"
+                details = "Total Citations: 635"
                 [[languages.en.params.skills.list.items]]
                 details = "Conference presentations: 25"
                 
@@ -170,11 +170,11 @@ defaultContentLanguage = 'en'
                     [[languages.en.params.experience.list.items]]
                     details = "Lead Process Engineer in the development of Cold Atom Laboratory hardware replacementes"
                     [[languages.en.params.experience.list.items]]
-                    details = "Research and Development: Research new technologies, tools, and methodologies to improve existing JPL systems. Incorporate cutting-edge practices into assigned projects"
+                    details = "Research new technologies, tools, and methodologies to improve existing JPL systems. Incorporate cutting-edge practices into assigned projects"
+                    [[languages.en.params.experience.list.items]]
+                    details = "Working closely with teams of scientist, engineers, managers, and clients to understand product requirements, communicate technical details, and ensure the integration of new technology"
                     [[languages.en.params.experience.list.items]]
                     details = "Implementing novel technology solutions, whether it's software applications or hardware infrastructure"
-                    [[languages.en.params.experience.list.items]]
-                    details = "Collaboration and Communication: Work closely with teams of scientist, engineers, managers, and clients to understand product requirements, communicate technical details, and ensure the integration of new technology"
 
                 [[languages.en.params.experience.list]]
                 title = "Post-doctoral Fellow"
@@ -212,20 +212,18 @@ defaultContentLanguage = 'en'
                 dates = "Summer 2009 and 2010"
                 company = "Trans-Illes S.C."
                     [[languages.en.params.experience.list.items]]
-                    details = "Summer job with administrative and archive tasks"
+                    details = "Summer job with administrative and archival responsabilities"
                 
-
 
             [languages.en.params.projects]
                 enable = true
-
                 [[languages.en.params.projects.list]]
                 title = "Cold Atom Laboratory (CAL)"
                 meta = "Jet Propulsion Laboratory"
                 [[languages.en.params.projects.list.items]]
-                details="Several deliveries to the International Space Station (ISS) for maintenance tasks on the Cold Atom Laboratory science module"
+                details="Electrical Engineer responsible for hardware deliveries to the International Space Station (ISS) as part of the Cold Atom Laboratory upgrade plan"
                 [[languages.en.params.projects.list.items]]
-                details="Electrical Engineering team supporting science operations"
+                details="Engineering support to science operations (ground testing, in-orbit problem solving, etc.)"
 
                 [[languages.en.params.projects.list]]
                 title = "SMAP-Reflectometry"
@@ -233,7 +231,7 @@ defaultContentLanguage = 'en'
                     [[languages.en.params.projects.list.items]]
                     details="Responsible for L1b to L2 processing chains. Softwares written in C, Python, Bash, and MATLAB"
                     [[languages.en.params.projects.list.items]]
-                    details="Conference presentations, manuscript production (5 as first author)"
+                    details="Conference presentations, manuscript production, production of documentation and internal reports"
                     [[languages.en.params.projects.list.items]]
                     details="Developed three new technologies, accepted by JPL/Caltech and provisionally filed for patent"
 
@@ -242,6 +240,8 @@ defaultContentLanguage = 'en'
                 meta = "Jet Propulsion Laboratory"
                     [[languages.en.params.projects.list.items]]
                     details="Signal processing: enhance GSSR capabilities by the implementation of several techniques, as polarimetric retrievals, enhanced frequency processing, and parallelization techniques for higher throughput"
+                    [[languages.en.params.projects.list.items]]
+                    details="Software engineering support on code optimization, documentaiton, and maintenance"
                     [[languages.en.params.projects.list.items]]
                     details="Contributions to Cis-Lunar orbital debris observations"
 
@@ -302,17 +302,16 @@ defaultContentLanguage = 'en'
 
             [languages.en.params.information]
                 enable = true
-
                 [[languages.en.params.information.list]]
                 title = "Selected Publications"
-                [[languages.en.params.information.list.items]]
-                details = "J. F. Munoz-Martin et al., “In-Orbit Validation of the FMPL-2 Instrument—The GNSS-R and L-Band Microwave Radiometer Payload of the FSSCat Mission,” Remote Sensing, vol. 13, no. 1, p. 121, Dec. 2020, doi: 10.3390/rs13010121. [Online]. Available: http://dx.doi.org/10.3390/rs13010121"
-                [[languages.en.params.information.list.items]]
-                details = "J. F. Munoz-Martin et al., “The Flexible Microwave Payload-2: A SDR-Based GNSS-Reflectometer and L-Band Radiometer for CubeSats,” in IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, vol. 13, pp. 1298-1311, 2020, doi: 10.1109/JSTARS.2020.2977959. [Online]. Available: http://dx.doi.org/10.1109/JSTARS.2020.2977959"
                 [[languages.en.params.information.list.items]]
                 details = "J. F. Munoz-Martin et al., “Stokes Parameters Retrieval and Calibration of Hybrid Compact Polarimetric GNSS-R Signals,” in IEEE Transactions on Geoscience and Remote Sensing, vol. 60, pp. 1-11, 2022, Art no. 5113911, doi: 10.1109/TGRS.2022.3178578. [Online]. Available: http://dx.doi.org/10.1109/TGRS.2022.3178578"
                 [[languages.en.params.information.list.items]]
                 details = "J. F. Munoz-Martin et al., “Analysis of polarimetric GNSS-R Stokes parameters of the Earth’s land surface,” Remote Sensing of Environment, vol. 287. Elsevier BV, p. 113491, Mar. 2023. doi: 10.1016/j.rse.2023.113491. [Online]. Available: http://dx.doi.org/10.1016/j.rse.2023.113491"
+                [[languages.en.params.information.list.items]]
+                details = "J. F. Munoz-Martin et al., “Calibration Strategy for Compact Polarimetric GNSS-R Instruments,” IEEE Transactions on Geoscience and Remote Sensing, vol. 61. Institute of Electrical and Electronics Engineers (IEEE), pp. 1–13, 2023. doi: 10.1109/tgrs.2023.3266602. Available: http://dx.doi.org/10.1109/TGRS.2023.3266602"
+                [[languages.en.params.information.list.items]]
+                details = "J. F. Munoz-Martin et al., “The Flexible Microwave Payload-2: A SDR-Based GNSS-Reflectometer and L-Band Radiometer for CubeSats,” in IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, vol. 13, pp. 1298-1311, 2020, doi: 10.1109/JSTARS.2020.2977959. [Online]. Available: http://dx.doi.org/10.1109/JSTARS.2020.2977959"
                 [[languages.en.params.information.list]]
                 title = "Other Participations"
                 [[languages.en.params.information.list.items]]
@@ -423,7 +422,7 @@ defaultContentLanguage = 'en'
                 [[languages.es.params.skills.list.items]]
                 details = "Manuscritos: 33"
                 [[languages.es.params.skills.list.items]]
-                details = "Citaciones: 590"
+                details = "Citaciones: 635"
                 [[languages.es.params.skills.list.items]]
                 details = "Presentaciones en congreso: 25"
                 
@@ -468,7 +467,7 @@ defaultContentLanguage = 'en'
                 body = "Universitat Politècnica de Catalunya"
                 date = "2022"
                 [[languages.es.params.awards.list]]
-                name = "Primero de la promoción de grado"
+                name = "Mejor expedience de la promoción de grado"
                 body = "Universitat Politècnica de Catalunya"
                 date = "2014"
 
@@ -512,33 +511,33 @@ defaultContentLanguage = 'en'
                     [[languages.es.params.experience.list.items]]
                     details = "Investigador Principal del proyecto SmallSat Ice and Snow Thickness monitoring (SITS)"
                     [[languages.es.params.experience.list.items]]
-                    details = "Ingeniero lider en el desarrollo de nuevas partes para el Cold Atom Laboratory"
+                    details = "Ingeniero lider en el desarrollo de nuevas módulos del Cold Atom Laboratory"
                     [[languages.es.params.experience.list.items]]
-                    details = "Investigación y Desarrollo: Investigar nuevas tecnologías, herramientas y metodologías para mejorar los sistemas existentes en el JPL. Incorporar prácticas de vanguardia en los proyectos asignados"
+                    details = "Investigo nuevas tecnologías, herramientas y metodologías para mejorar los sistemas existentes en el JPL. Incorporo prácticas de vanguardia en los proyectos asignados"
                     [[languages.es.params.experience.list.items]]
-                    details = "Implementación y Resolución de Problemas: Implementar soluciones tecnológicas, ya sea aplicaciones de software o infraestructura de hardware. Solucionar problemas técnicos y resolver cualquier inconveniente que pueda surgir durante la implementación o el uso regular de la tecnología implementada."
+                    details = "Implemento soluciones tecnológicas, ya sea aplicaciones de software o infraestructura de hardware. Soluciono problemas técnicos y resolver cualquier inconveniente que pueda surgir durante la implementación o el uso regular de la tecnología implementada."
                     [[languages.es.params.experience.list.items]]
-                    details = "Colaboración y Comunicación: Trabajar estrechamente con equipos de científicos, ingenieros, gerentes y clientes para comprender los requisitos del producto, comunicar detalles técnicos y garantizar la integración de nuevas tecnologías."
+                    details = "Trabajo estrechamente con equipos de científicos, ingenieros, gerentes y clientes para comprender los requisitos del producto, comunicar detalles técnicos y garantizar la integración de nuevas tecnologías."
 
                 [[languages.es.params.experience.list]]
                 title = "Investigador Post-doctoral"
                 dates = "2021 - 2022"
                 company = "Jet Propulsion Laboratory"
                     [[languages.es.params.experience.list.items]]
-                    details = "Liderar el desarrollo e implementación de sistemas pasivos de detección remota de ondas milimétricas (mmWave)."
+                    details = "Lideré el desarrollo e implementación de sistemas pasivos de detección remota de ondas milimétricas (mmWave)."
                     [[languages.es.params.experience.list.items]]
-                    details = "Liderar el desarrollo de algoritmos novedosos para futuros sistemas pasivos de detección remota de microondas."
+                    details = "Lideré el desarrollo de algoritmos novedosos para futuros sistemas pasivos de detección remota de microondas."
 
                 [[languages.es.params.experience.list]]
                 title = "Investigador Pre-doctoral"
                 dates = "2017 - 2021"
                 company = "Universitat Politècnica de Catalunya"
                     [[languages.es.params.experience.list.items]]
-                    details = "Diseñar, implementar y probar el desarrollo de varias misiones CubeSat dirigidas por el NanoSat-Lab de la UPC"
+                    details = "Diseño, implementación y testing de diversar misiones CubeSat dirigidas por el NanoSat-Lab de la UPC"
                     [[languages.es.params.experience.list.items]]
                     details = "Líder del laboratorio de teledetección y desarrollo de software, ayudando a estudiantes de licenciatura, maestría y candidatos de doctorado a sobresalir en su futuro trabajo"
                     [[languages.es.params.experience.list.items]]
-                    details = "Liderar la recuperación de parámetros geofísicos utilizando el Reflectómetro Interferométrico de Microondas"
+                    details = "Lideraré la recuperación de parámetros geofísicos utilizando el Reflectómetro Interferométrico de Microondas"
                     [[languages.es.params.experience.list.items]]
                     details = "Co-mentor de diversas tesis de Master y Grado"
 
@@ -576,7 +575,7 @@ defaultContentLanguage = 'en'
                     [[languages.es.params.projects.list.items]]
                     details="Responsable de las cadenas de procesamiento de L1b a L2. Software escrito en C, Python, Bash y MATLAB"
                     [[languages.es.params.projects.list.items]]
-                    details="Presentaciones en conferencias y producción de manuscritos (5 como primer autor)"
+                    details="Presentaciones en conferencias y producción de manuscritos"
                     [[languages.es.params.projects.list.items]]
                     details="Desarrollo de 3 reportes de nueva tecnología con patente en trámite"
 
@@ -585,6 +584,8 @@ defaultContentLanguage = 'en'
                 meta = "Jet Propulsion Laboratory"
                     [[languages.es.params.projects.list.items]]
                     details="Procesamiento de señales: mejorar las capacidades de GSSR mediante la implementación de varias técnicas, como recuperaciones polarimétricas, procesamiento de frecuencias mejorado y técnicas de paralelización para un mayor rendimiento"
+                    [[languages.es.params.projects.list.items]]
+                    details="Tareas de ingeniería de software, optimización de código, documentación, y despliegue en infraestuctura"
                     [[languages.es.params.projects.list.items]]
                     details="Contribuciones a las observaciones de basura orbital en el espacio Cislunar"
 
@@ -649,13 +650,13 @@ defaultContentLanguage = 'en'
                 [[languages.es.params.information.list]]
                 title = "Publicaciones seleccionadas"
                 [[languages.es.params.information.list.items]]
-                details = "J. F. Munoz-Martin et al., “In-Orbit Validation of the FMPL-2 Instrument—The GNSS-R and L-Band Microwave Radiometer Payload of the FSSCat Mission,” Remote Sensing, vol. 13, no. 1, p. 121, Dec. 2020, doi: 10.3390/rs13010121. [Online]. Available: http://dx.doi.org/10.3390/rs13010121"
-                [[languages.es.params.information.list.items]]
-                details = "J. F. Munoz-Martin et al., “The Flexible Microwave Payload-2: A SDR-Based GNSS-Reflectometer and L-Band Radiometer for CubeSats,” in IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, vol. 13, pp. 1298-1311, 2020, doi: 10.1109/JSTARS.2020.2977959. [Online]. Available: http://dx.doi.org/10.1109/JSTARS.2020.2977959"
-                [[languages.es.params.information.list.items]]
                 details = "J. F. Munoz-Martin et al., “Stokes Parameters Retrieval and Calibration of Hybrid Compact Polarimetric GNSS-R Signals,” in IEEE Transactions on Geoscience and Remote Sensing, vol. 60, pp. 1-11, 2022, Art no. 5113911, doi: 10.1109/TGRS.2022.3178578. [Online]. Available: http://dx.doi.org/10.1109/TGRS.2022.3178578"
                 [[languages.es.params.information.list.items]]
                 details = "J. F. Munoz-Martin et al., “Analysis of polarimetric GNSS-R Stokes parameters of the Earth’s land surface,” Remote Sensing of Environment, vol. 287. Elsevier BV, p. 113491, Mar. 2023. doi: 10.1016/j.rse.2023.113491. [Online]. Available: http://dx.doi.org/10.1016/j.rse.2023.113491"
+                [[languages.es.params.information.list.items]]
+                details = "J. F. Munoz-Martin et al., “Calibration Strategy for Compact Polarimetric GNSS-R Instruments,” IEEE Transactions on Geoscience and Remote Sensing, vol. 61. Institute of Electrical and Electronics Engineers (IEEE), pp. 1–13, 2023. doi: 10.1109/tgrs.2023.3266602. Available: http://dx.doi.org/10.1109/TGRS.2023.3266602"
+                [[languages.es.params.information.list.items]]
+                details = "J. F. Munoz-Martin et al., “The Flexible Microwave Payload-2: A SDR-Based GNSS-Reflectometer and L-Band Radiometer for CubeSats,” in IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, vol. 13, pp. 1298-1311, 2020, doi: 10.1109/JSTARS.2020.2977959. [Online]. Available: http://dx.doi.org/10.1109/JSTARS.2020.2977959"
                 [[languages.es.params.information.list]]
                 title = "Otros"
                 [[languages.es.params.information.list.items]]
