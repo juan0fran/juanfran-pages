@@ -124,7 +124,7 @@ defaultContentLanguage = 'en'
                 body = "Universitat Politècnica de Catalunya"
                 date = "2022"
                 [[languages.en.params.awards.list]]
-                name = "Top of my class in BSc"
+                name = "BSc Best Record"
                 body = "Universitat Politècnica de Catalunya"
                 date = "2014"
 
@@ -166,9 +166,9 @@ defaultContentLanguage = 'en'
                 dates = "2022 - Present"
                 company = "Jet Propulsion Laboratory"
                     [[languages.en.params.experience.list.items]]
-                    details = "Principal Investigator for the SmallSat Ice and Snow Thickness monitoring project (SITS)"
+                    details = "Principal Investigator for NASA ROSES awarded SmallSat Ice and Snow Thickness monitoring project (SITS)"
                     [[languages.en.params.experience.list.items]]
-                    details = "Lead Process Engineer in the development of Cold Atom Laboratory hardware replacementes"
+                    details = "Lead Process Engineer for the Cold Atom Laboratory hardware replacement to the International Space Station"
                     [[languages.en.params.experience.list.items]]
                     details = "Research new technologies, tools, and methodologies to improve existing JPL systems. Incorporate cutting-edge practices into assigned projects"
                     [[languages.en.params.experience.list.items]]
@@ -509,9 +509,9 @@ defaultContentLanguage = 'en'
                 dates = "2022 - Actual"
                 company = "Jet Propulsion Laboratory"
                     [[languages.es.params.experience.list.items]]
-                    details = "Investigador Principal del proyecto SmallSat Ice and Snow Thickness monitoring (SITS)"
+                    details = "Investigador Principal del proyecto SmallSat Ice and Snow Thickness monitoring (SITS) financiado por una NASA ROSES"
                     [[languages.es.params.experience.list.items]]
-                    details = "Ingeniero lider en el desarrollo de nuevas módulos del Cold Atom Laboratory"
+                    details = "Ingeniero líder en el desarrollo de nuevos módulos para Cold Atom Laboratory de la Estación Espacial Internacional"
                     [[languages.es.params.experience.list.items]]
                     details = "Investigo nuevas tecnologías, herramientas y metodologías para mejorar los sistemas existentes en el JPL. Incorporo prácticas de vanguardia en los proyectos asignados"
                     [[languages.es.params.experience.list.items]]
