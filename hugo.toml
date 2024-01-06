@@ -1,6 +1,6 @@
 # Page settings
 
-baseURL = "juanfran.rocks"
+baseURL = "joanfm.com"
 theme = "hugo-devresume-theme"
 googleAnalytics = "G-EN1HZKED0E"
 
@@ -34,12 +34,12 @@ defaultContentLanguage = 'en'
 
                 [[languages.en.params.contact.list]]
                 icon = "fas fa-envelope-square"
-                url = "mailto:info@juanfran.rocks"
-                text = "info@juanfran.rocks"
+                url = "mailto:info@joanfm.com"
+                text = "info@joanfm.com"
                 [[languages.en.params.contact.list]]
                 icon = "fas fa-globe"
-                url = "https://juanfran.rocks"
-                text = "https://juanfran.rocks"
+                url = "https://joanfm.com"
+                text = "https://joanfm.com"
 
 
             [languages.en.params.skills]
@@ -378,12 +378,12 @@ defaultContentLanguage = 'en'
 
                 [[languages.es.params.contact.list]]
                 icon = "fas fa-envelope-square"
-                url = "mailto:info@juanfran.rocks"
-                text = "info@juanfran.rocks"
+                url = "mailto:info@joanfm.com"
+                text = "info@joanfm.com"
                 [[languages.es.params.contact.list]]
                 icon = "fas fa-globe"
-                url = "https://juanfran.rocks"
-                text = "https://juanfran.rocks"
+                url = "https://joanfm.com"
+                text = "https://joanfm.com"
 
 
             [languages.es.params.skills]
