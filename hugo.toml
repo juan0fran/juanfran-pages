@@ -26,7 +26,7 @@ defaultContentLanguage = 'en'
                 enable = true
                 name = "Joan F. Muñoz Martin"
                 tagline = "Data Scientist, Technologist, Engineer"
-                avatar = "avatar2.jpg"
+                avatar = "avatar_malibu.jpg"
 
             [languages.en.params.contact]
                 enable = true
@@ -370,7 +370,7 @@ defaultContentLanguage = 'en'
                 enable = true
                 name = "Joan F. Muñoz Martin"
                 tagline = "Científico de datos, Tecnólogo, Ingeniero"
-                avatar = "avatar2.jpg"
+                avatar = "avatar_malibu.jpg"
 
             [languages.es.params.contact]
                 enable = true
