@@ -52,7 +52,7 @@ defaultContentLanguage = 'en'
                 [[languages.en.params.skills.list.items]]
                 details = "Node.js/PostgreSQL/MySQL/Git"
                 [[languages.en.params.skills.list.items]]
-                details = "Altium"
+                details = "PCB Design (Altium)"
                 [[languages.en.params.skills.list.items]]
                 details = "Design, implement, and validation of complex engineering systems for science and technology advancements"
                 [[languages.en.params.skills.list.items]]
@@ -61,7 +61,7 @@ defaultContentLanguage = 'en'
                 [[languages.en.params.skills.list]]
                 title = "Professional"
                 [[languages.en.params.skills.list.items]]
-                details = "Effective communication"
+                details = "Leadership"
                 [[languages.en.params.skills.list.items]]
                 details = "Team player"
                 [[languages.en.params.skills.list.items]]
@@ -69,16 +69,14 @@ defaultContentLanguage = 'en'
                 [[languages.en.params.skills.list.items]]
                 details = "Strong problem solver"
                 [[languages.en.params.skills.list.items]]
-                details = "Good time management"
+                details = "Time/budget management"
 
                 [[languages.en.params.skills.list]]
                 title = "Metrics (2023)"
                 [[languages.en.params.skills.list.items]]
-                details = "h-index: 15"
+                details = "h-index: 16"
                 [[languages.en.params.skills.list.items]]
                 details = "Manuscripts: 33"
-                [[languages.en.params.skills.list.items]]
-                details = "Total Citations: 635"
                 [[languages.en.params.skills.list.items]]
                 details = "Conference presentations: 25"
                 
@@ -156,7 +154,7 @@ defaultContentLanguage = 'en'
 
             [languages.en.params.summary]
                 enable = true
-                text = "Telecommunications engineer with B.Sc., M.Sc., and Ph.D. degrees from UPC BarcelonaTech. Led remote sensing payloads for satellite missions at UPC NanoSat Lab. Collaborated with ESA on projects like BEXUS 19, Fly Your Satellite II, and 3Cat-5/FSSCat. Partook in GNSS-R experiment during MOSAiC. Researcher at NASA's JPL, focusing on GSSR signal processing, microwave radiometry, polarimetric GNSS-R, and innovative Earth observation instruments. Passionate about advancing space technology and instrumentation. Currently developing technology advances for future quantum instruments."
+                text = "Telecommunications engineer with B.Sc., M.Sc., and Ph.D. degrees from UPC BarcelonaTech. I led the implementation of several satellite-based remote sensing payloads at the UPC NanoSat Lab. Collaborated with ESA on projects BEXUS 19, Fly Your Satellite II, and 3Cat-5/FSSCat. Partook in GNSS-R experiment during MOSAiC. Currently a Technologist at NASA's JPL, focusing on signal processing for Earth Observation and innovative instruments. Passionate about advancing technology and instrumentation. Currently developing technology advances for future quantum sensing instruments."
 
             [languages.en.params.experience]
                 enable = true
@@ -168,22 +166,24 @@ defaultContentLanguage = 'en'
                     [[languages.en.params.experience.list.items]]
                     details = "Principal Investigator for NASA ROSES awarded SmallSat Ice and Snow Thickness monitoring project (SITS)"
                     [[languages.en.params.experience.list.items]]
-                    details = "Lead Process Engineer for the Cold Atom Laboratory hardware replacement to the International Space Station"
+                    details = "Co-Investigator on JPL's SRTD on the use of superconductors for efficient ultra-cold-atom transport and trapping"
                     [[languages.en.params.experience.list.items]]
-                    details = "Research new technologies, tools, and methodologies to improve existing JPL systems. Incorporate cutting-edge practices into assigned projects"
+                    details = "Process and Electrical Engineer (Cognizant Engineer) for the Cold Atom Laboratory (CAL)"
                     [[languages.en.params.experience.list.items]]
-                    details = "Working closely with teams of scientist, engineers, managers, and clients to understand product requirements, communicate technical details, and ensure the integration of new technology"
+                    details = "Software Engineer for the Goldstone Solar System Radar (GSSR) part of the Deep Space Network"
                     [[languages.en.params.experience.list.items]]
-                    details = "Implementing novel technology solutions, whether it's software applications or hardware infrastructure"
+                    details = "Continuation of Post-doc tasks of Data Scientist and Software Engineer for the SMAP-Reflectometry project"
+                    [[languages.en.params.experience.list.items]]
+                    details = "Research and develop new technologies, tools, and methodologies to improve existing JPL systems, wheter is software or hardware"
 
                 [[languages.en.params.experience.list]]
                 title = "Post-doctoral Fellow"
                 dates = "2021 - 2022"
                 company = "Jet Propulsion Laboratory"
                     [[languages.en.params.experience.list.items]]
-                    details = "Lead the develoment and implementation of passive mmWave remote sensing systems"
+                    details = "Electrical and Software Engineer on the develoment and implementation of passive mmWave remote sensing systems"
                     [[languages.en.params.experience.list.items]]
-                    details = "Lead the development of novel algorithms for future passive microwave remote sensing systems"
+                    details = "Data scientist and Software Engineer for the ROSES-awarded SMAP-Reflectometry project"
 
                 [[languages.en.params.experience.list]]
                 title = "Pre-doctoral Fellow"
@@ -221,7 +221,7 @@ defaultContentLanguage = 'en'
                 title = "Cold Atom Laboratory (CAL)"
                 meta = "Jet Propulsion Laboratory"
                 [[languages.en.params.projects.list.items]]
-                details="Electrical Engineer responsible for hardware deliveries to the International Space Station (ISS) as part of the Cold Atom Laboratory upgrade plan"
+                details="Cognizant Engineer responsible for several hardware deliveries to the International Space Station (ISS) as part of the Cold Atom Laboratory upgrade plan"
                 [[languages.en.params.projects.list.items]]
                 details="Engineering support to science operations (ground testing, in-orbit problem solving, etc.)"
 
@@ -396,7 +396,7 @@ defaultContentLanguage = 'en'
                 [[languages.es.params.skills.list.items]]
                 details = "Node.js/PostgreSQL/MySQL/Git"
                 [[languages.es.params.skills.list.items]]
-                details = "Altium"
+                details = "Diseño de PCB (Altium)"
                 [[languages.es.params.skills.list.items]]
                 details = "Diseño, implementación y validación de diversos tipos de sistemas de ingeniería (sistemas encastados, estaciones base, etc.)"
                 [[languages.es.params.skills.list.items]]
@@ -405,24 +405,22 @@ defaultContentLanguage = 'en'
                 [[languages.es.params.skills.list]]
                 title = "Profesionales"
                 [[languages.es.params.skills.list.items]]
-                details = "Comunicación Efectiva"
+                details = "Liderazgo"
                 [[languages.es.params.skills.list.items]]
                 details = "Trabajo en equipo"
                 [[languages.es.params.skills.list.items]]
                 details = "Pensamiento crítico"
                 [[languages.es.params.skills.list.items]]
-                details = "Resolvedor de problemas"
+                details = "Solucionador de problemas"
                 [[languages.es.params.skills.list.items]]
-                details = "Buena gestión del tiempo"
+                details = "Gestión del tiempo/recursos"
 
                 [[languages.es.params.skills.list]]
                 title = "Métricas (2023)"
                 [[languages.es.params.skills.list.items]]
-                details = "h-index: 15"
+                details = "h-index: 16"
                 [[languages.es.params.skills.list.items]]
                 details = "Manuscritos: 33"
-                [[languages.es.params.skills.list.items]]
-                details = "Citaciones: 635"
                 [[languages.es.params.skills.list.items]]
                 details = "Presentaciones en congreso: 25"
                 
@@ -493,13 +491,13 @@ defaultContentLanguage = 'en'
                 [[languages.es.params.interests.list]]
                 name = "Navegar"
                 [[languages.es.params.interests.list]]
-                name = "Hiking"
+                name = "Senderismo"
                 [[languages.es.params.interests.list]]
                 name = "Espacio"
 
             [languages.es.params.summary]
                 enable = true
-                text = "Ingeniero de Telecomunicaciones con grado, máster y doctorado de la UPC BarcelonaTech. Lideré cargas útiles de teledetección para misiones satelitales en el Laboratorio UPC NanoSat. Colaboré con la ESA en proyectos como BEXUS 19, Fly Your Satellite II y 3Cat-5/FSSCat. Participé en el experimento GNSS-R durante MOSAiC. Investigador en el JPL de la NASA, enfocado en el procesamiento de señales GSSR, radiometría de microondas, GNSS-R polarimétrico e instrumentos innovadores de observación de la Tierra. Apasionado por el avance de la tecnología espacial y la instrumentación. Actualmente desarrollando nuevas tecnologías para futuros instrumentos cuánticos."
+                text = "Ingeniero de Telecomunicaciones con grado, máster y doctorado de la UPC BarcelonaTech. Lideré cargas útiles de teledetección para misiones satelitales en el Laboratorio UPC NanoSat. Colaboré con la ESA en proyectos como BEXUS 19, Fly Your Satellite II y 3Cat-5/FSSCat. Participé en el experimento GNSS-R durante MOSAiC. Actualmente tecnólogo en el JPL de la NASA, enfocado en el procesamiento de y desarrollo de instrumentos innovadores para observación Terrestre. Apasionado por el avance de la tecnología y la instrumentación. Actualmente desarrollando nuevas tecnologías para futuros instrumentos cuánticos."
 
             [languages.es.params.experience]
                 enable = true
@@ -509,24 +507,26 @@ defaultContentLanguage = 'en'
                 dates = "2022 - Actual"
                 company = "Jet Propulsion Laboratory"
                     [[languages.es.params.experience.list.items]]
-                    details = "Investigador Principal del proyecto SmallSat Ice and Snow Thickness monitoring (SITS) financiado por una NASA ROSES"
+                    details = "Investigador Principal para el proyecto de monitorización de espesor de hielo y nieve SmallSat (SITS) premiado por NASA ROSES"
                     [[languages.es.params.experience.list.items]]
-                    details = "Ingeniero líder en el desarrollo de nuevos módulos para Cold Atom Laboratory de la Estación Espacial Internacional"
+                    details = "Co-Investigador en el SRTD del JPL sobre el uso de superconductores para el transporte y captura eficiente de átomos ultra-fríos"
                     [[languages.es.params.experience.list.items]]
-                    details = "Investigo nuevas tecnologías, herramientas y metodologías para mejorar los sistemas existentes en el JPL. Incorporo prácticas de vanguardia en los proyectos asignados"
+                    details = "Ingeniero de procesos y eléctrico responsable del desarrollo de nuevos módulos para Cold Atom Laboratory de la Estación Espacial Internacional"
                     [[languages.es.params.experience.list.items]]
-                    details = "Implemento soluciones tecnológicas, ya sea aplicaciones de software o infraestructura de hardware. Soluciono problemas técnicos y resolver cualquier inconveniente que pueda surgir durante la implementación o el uso regular de la tecnología implementada."
+                    details = "Ingeniero de Software para el Goldstone Solar Systme Radar (GSSR), parte de la Red del Espacio Profundo (Deep Space Network)"
                     [[languages.es.params.experience.list.items]]
-                    details = "Trabajo estrechamente con equipos de científicos, ingenieros, gerentes y clientes para comprender los requisitos del producto, comunicar detalles técnicos y garantizar la integración de nuevas tecnologías."
+                    details = "Continuación de tareas de Científico de Datos e Ingeniero de Software para el proyecto SMAP-Reflectometry"
+                    [[languages.es.params.experience.list.items]]
+                    details = "Investigar y desarrollar nuevas tecnologías, herramientas y metodologías para mejorar los sistemas existentes del JPL, ya sea software o hardware"
 
                 [[languages.es.params.experience.list]]
                 title = "Investigador Post-doctoral"
                 dates = "2021 - 2022"
                 company = "Jet Propulsion Laboratory"
                     [[languages.es.params.experience.list.items]]
-                    details = "Lideré el desarrollo e implementación de sistemas pasivos de detección remota de ondas milimétricas (mmWave)."
+                    details = "Ingeniero de Software responsable del desarrollo e implementación de sistemas pasivos de detección remota de ondas milimétricas (mmWave)."
                     [[languages.es.params.experience.list.items]]
-                    details = "Lideré el desarrollo de algoritmos novedosos para futuros sistemas pasivos de detección remota de microondas."
+                    details = "Científico de Datos e Ingeniero de Software para el proyecto SMAP-Reflectometry galardonado con una NASA ROSES"
 
                 [[languages.es.params.experience.list]]
                 title = "Investigador Pre-doctoral"
@@ -565,7 +565,7 @@ defaultContentLanguage = 'en'
                 title = "Cold Atom Laboratory (CAL)"
                 meta = "Jet Propulsion Laboratory"
                 [[languages.es.params.projects.list.items]]
-                details="Varias entregas a la Estación Espacial Internacional (ISS) para tareas de mantenimiento del módulo científico Cold Atom Laboratory."
+                details="Diversas entregas a la Estación Espacial Internacional (ISS) para tareas de mantenimiento del módulo científico Cold Atom Laboratory"
                 [[languages.es.params.projects.list.items]]
                 details="Equipo de Ingeniería Eléctrica que brinda apoyo a las operaciones científicas"
 
