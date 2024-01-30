@@ -207,14 +207,6 @@ defaultContentLanguage = 'en'
                     [[languages.en.params.experience.list.items]]
                     details = "Development of communication systems for nanosatellites (3Cat-1, 3Cat-2, and 3Cat-4)."
 
-                [[languages.en.params.experience.list]]
-                title = "Administrative Assistant"
-                dates = "Summer 2009 and 2010"
-                company = "Trans-Illes S.C."
-                    [[languages.en.params.experience.list.items]]
-                    details = "Summer job with administrative and archival responsabilities"
-                
-
             [languages.en.params.projects]
                 enable = true
                 [[languages.en.params.projects.list]]
@@ -293,11 +285,9 @@ defaultContentLanguage = 'en'
                     [[languages.en.params.projects.list.items]]
                     details="Mission definition, requirement, design documents, test plans"
                     [[languages.en.params.projects.list.items]]
-                    details="Payload lead from PDR to subsystem delivery"
-                    [[languages.en.params.projects.list.items]]
                     details="Software development team for C&DH, including software development for the entire communication stack in embedded systems (software in C)"
                     [[languages.en.params.projects.list.items]]
-                    details="Lead on TT&C on-board and on-ground (software in C, C++ and Go)."
+                    details="Lead on instrument software development, and telemetry/control software (on-board and on-ground; software in C, C++ and Go)."
 
 
             [languages.en.params.information]
