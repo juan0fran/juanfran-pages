@@ -1,5 +1,4 @@
 # Page settings
-
 baseURL = "joanfm.com"
 theme = "hugo-devresume-theme"
 googleAnalytics = "G-EN1HZKED0E"
@@ -25,7 +24,7 @@ defaultContentLanguage = 'en'
             [languages.en.params.profile]
                 enable = true
                 name = "Joan F. Muñoz Martin"
-                tagline = "Technologist, Software Engineer"
+                tagline = "Technologist"
                 avatar = "avatar_malibu.jpg"
 
             [languages.en.params.contact]
@@ -51,8 +50,6 @@ defaultContentLanguage = 'en'
                 details = "C/C++/Python/GoLang/MATLAB/Rust"
                 [[languages.en.params.skills.list.items]]
                 details = "Node.js/PostgreSQL/MySQL/Git"
-                [[languages.en.params.skills.list.items]]
-                details = "Embedded Software developer (ARM and FPGA)"
                 [[languages.en.params.skills.list.items]]
                 details = "PCB Design (Altium)"
                 [[languages.en.params.skills.list.items]]
@@ -131,6 +128,7 @@ defaultContentLanguage = 'en'
 
             [languages.en.params.languages]
                 enable = true
+
                 [[languages.en.params.languages.list]]
                 name = "Spanish"
                 level = "Native"
@@ -141,10 +139,11 @@ defaultContentLanguage = 'en'
                 name = "English"
                 level = "Professional"
 
+
             [languages.en.params.interests]
                 enable = true
                 [[languages.en.params.interests.list]]
-                name = "CrossFit/Weightlifting"
+                name = "CrossFit"
                 [[languages.en.params.interests.list]]
                 name = "Sailing"
                 [[languages.en.params.interests.list]]
@@ -154,7 +153,7 @@ defaultContentLanguage = 'en'
 
             [languages.en.params.summary]
                 enable = true
-                text = "Doctor in Telecommunications Engineering by the Universitat Politècnica de Catalunya (UPC) - BarcelonaTech. I led the implementation of several satellite-based remote sensing payloads at the UPC NanoSat Lab. Collaborated with ESA on projects BEXUS 19, Fly Your Satellite II, and 3Cat-5/FSSCat. Partook in GNSS-R experiment during MOSAiC. Currently a Technologist at NASA's JPL, focusing on signal processing for Earth Observation and innovative instruments. Passionate about advancing technology and instrumentation. Currently advancing technology for future quantum sensing instruments."
+                text = "Telecommunications engineer with B.Sc., M.Sc., and Ph.D. degrees from UPC BarcelonaTech. I led the implementation of several satellite-based remote sensing payloads at the UPC NanoSat Lab. Collaborated with ESA on projects BEXUS 19, Fly Your Satellite II, and 3Cat-5/FSSCat. Partook in GNSS-R experiment during MOSAiC. Currently a Technologist at NASA's JPL, focusing on signal processing for Earth Observation and innovative instruments. Passionate about advancing technology and instrumentation. Currently developing technology advances for future quantum sensing instruments."
 
             [languages.en.params.experience]
                 enable = true
@@ -164,37 +163,37 @@ defaultContentLanguage = 'en'
                 dates = "2022 - Present"
                 company = "Jet Propulsion Laboratory"
                     [[languages.en.params.experience.list.items]]
-                    details = "Principal Investigator for NASA ROSES awarded SmallSat Ice and Snow Thickness monitoring project (SITS). Responsible for Software Processing pipelines and data analysis."
+                    details = "Principal Investigator for NASA ROSES awarded SmallSat Ice and Snow Thickness monitoring project (SITS)"
                     [[languages.en.params.experience.list.items]]
-                    details = "Co-Investigator on JPL's SRTD on the use of superconductors for efficient ultra-cold-atom transport and trapping. Responsible for Hardware and supply chain."
+                    details = "Co-Investigator on JPL's SRTD on the use of superconductors for efficient ultra-cold-atom transport and trapping"
                     [[languages.en.params.experience.list.items]]
-                    details = "Process and Electrical Engineer (Cognizant Engineer) for the Cold Atom Laboratory (CAL). Responsible for project management, hardware and software development."
+                    details = "Process and Electrical Engineer (Cognizant Engineer) for the Cold Atom Laboratory (CAL)"
                     [[languages.en.params.experience.list.items]]
-                    details = "Software Engineer for the Goldstone Solar System Radar (GSSR) part of the Deep Space Network. Responsible for code optimization and implementation of new features following JPL Deep Space Network standards."
+                    details = "Software Engineer for the Goldstone Solar System Radar (GSSR) part of the Deep Space Network"
                     [[languages.en.params.experience.list.items]]
-                    details = "Data Scientist and Software responsible for the SMAP-Reflectometry project. Responsible for Software Processing pipelines and data analysis."
-                    
+                    details = "Continuation of Post-doc tasks of Data Scientist and Software Engineer for the SMAP-Reflectometry project"
+                    [[languages.en.params.experience.list.items]]
+                    details = "Research and develop new technologies, tools, and methodologies to improve existing JPL systems, wheter is software or hardware"
+
                 [[languages.en.params.experience.list]]
                 title = "Post-doctoral Fellow"
                 dates = "2021 - 2022"
                 company = "Jet Propulsion Laboratory"
                     [[languages.en.params.experience.list.items]]
-                    details = "Electrical and Software Engineer on the develoment and implementation of passive mmWave remote sensing systems (MTHP, YTHP, and SMICES). Software and campaign lead for the MTHP project." 
+                    details = "Electrical and Software Engineer on the develoment and implementation of passive mmWave remote sensing systems"
                     [[languages.en.params.experience.list.items]]
-                    details = "Data scientist and Software Engineer for the ROSES-awarded SMAP-Reflectometry project. Responsible for Software Processing pipelines and data analysis."
+                    details = "Data scientist and Software Engineer for the ROSES-awarded SMAP-Reflectometry project"
 
                 [[languages.en.params.experience.list]]
                 title = "Pre-doctoral Fellow"
                 dates = "2017 - 2021"
                 company = "Universitat Politècnica de Catalunya"
                     [[languages.en.params.experience.list.items]]
-                    details = "Design, implement, and test lead for the payload and on board computer of five CubeSat mission runned by the UPC NanoSat-Lab in collaboration with the European Space Agency and other agencies."
+                    details = "Design, implement, and test development of several CubeSat mission runned by the UPC NanoSat-Lab"
                     [[languages.en.params.experience.list.items]]
-                    details = "Laboratory software engineer co-lead for several developments within the laboratory, including simulators (Golang, C++), ground station (full stack, Golang), and testing equipment (full stack, Golang and Python)."
+                    details = "Laboratory lead for remote sensing and software develoment, helping BSc. and MSc. students and Ph.D. candidates to excel in their future work"
                     [[languages.en.params.experience.list.items]]
-                    details = "Lead the retrieval of geophysical parameters using the Microwave Interferometric Reflectometer."
-                    [[languages.en.params.experience.list.items]]
-                    details = "Lead the commissioning, data analysis and retrieval, and operations of the 3Cat-5/A remote sensing payload."
+                    details = "Lead the retrieval of geophysical parameters using the Microwave Interferometric Reflectometer"
                     [[languages.en.params.experience.list.items]]
                     details = "Co-mentor of MSc. and BSc. theses"
 
@@ -203,9 +202,17 @@ defaultContentLanguage = 'en'
                 dates = "2014 - 2017"
                 company = "Universitat Politècnica de Catalunya"
                     [[languages.en.params.experience.list.items]]
-                    details = "Implementation of satellite telemetry tracking and command (TT&C) ground station at UPC and Montsec observatory."
+                    details = "Implementation of satellite telemetry tracking and command (TT&C) ground station at UPC and Montsec observatory"
                     [[languages.en.params.experience.list.items]]
-                    details = "Development of communication systems for nanosatellites (3Cat-1, 3Cat-2, and 3Cat-4)."
+                    details = "Development of communication systems for nanosatellites (3Cat-1, 3Cat-2, and 3Cat-4)"
+
+                [[languages.en.params.experience.list]]
+                title = "Administrative Assistant"
+                dates = "Summer 2009 and 2010"
+                company = "Trans-Illes S.C."
+                    [[languages.en.params.experience.list.items]]
+                    details = "Summer job with administrative and archival responsabilities"
+                
 
             [languages.en.params.projects]
                 enable = true
@@ -213,69 +220,69 @@ defaultContentLanguage = 'en'
                 title = "Cold Atom Laboratory (CAL)"
                 meta = "Jet Propulsion Laboratory"
                 [[languages.en.params.projects.list.items]]
-                details="Cognizant Engineer responsible for several hardware deliveries to the International Space Station (ISS) as part of the Cold Atom Laboratory upgrade plan."
+                details="Cognizant Engineer responsible for several hardware deliveries to the International Space Station (ISS) as part of the Cold Atom Laboratory upgrade plan"
                 [[languages.en.params.projects.list.items]]
-                details="Engineering support to science operations (ground testing, in-orbit problem solving, etc.)."
+                details="Engineering support to science operations (ground testing, in-orbit problem solving, etc.)"
 
                 [[languages.en.params.projects.list]]
                 title = "SMAP-Reflectometry"
                 meta = "Jet Propulsion Laboratory"
                     [[languages.en.params.projects.list.items]]
-                    details="Responsible for L1b to L2 processing chains. Software written in C, Python, Bash, and MATLAB."
+                    details="Responsible for L1b to L2 processing chains. Softwares written in C, Python, Bash, and MATLAB"
                     [[languages.en.params.projects.list.items]]
-                    details="Conference presentations, manuscript production, production of documentation and internal reports."
+                    details="Conference presentations, manuscript production, production of documentation and internal reports"
                     [[languages.en.params.projects.list.items]]
-                    details="Developed three new technologies, accepted by JPL/Caltech and provisionally filed for patent."
+                    details="Developed three new technologies, accepted by JPL/Caltech and provisionally filed for patent"
 
                 [[languages.en.params.projects.list]]
                 title = "Goldstone Solar System Radar (GSSR)"
                 meta = "Jet Propulsion Laboratory"
                     [[languages.en.params.projects.list.items]]
-                    details="Signal processing: enhance GSSR capabilities by the implementation of several techniques, as polarimetric retrievals, enhanced frequency processing, and parallelization techniques for higher throughput."
+                    details="Signal processing: enhance GSSR capabilities by the implementation of several techniques, as polarimetric retrievals, enhanced frequency processing, and parallelization techniques for higher throughput"
                     [[languages.en.params.projects.list.items]]
-                    details="Software engineering support on code optimization, documentaiton, and maintenance (Code written in C, Python, and MATLAB)."
+                    details="Software engineering support on code optimization, documentaiton, and maintenance"
                     [[languages.en.params.projects.list.items]]
-                    details="Contributions to Cis-Lunar orbital debris observations."
+                    details="Contributions to Cis-Lunar orbital debris observations"
 
                 [[languages.en.params.projects.list]]
                 title = "Microwave Temperature and Humidity Probe (MTHP)"
                 meta = "Jet Propulsion Laboratory"
                     [[languages.en.params.projects.list.items]]
-                    details="Design, implementaiton, and characterization of a high resolution 60 GHz digital spectrometer for atmospheric sounding"
+                    details="Design of high resolution 60 GHz digital spectrometer for atmospheric sounding"
                     [[languages.en.params.projects.list.items]]
-                    details="Software development of the spectrometer full-stack (C and Python for back-end, Javascript for front-end), including microprocessor interface, networking, and data plotting."
+                    details="Implementation and characterization of the instrument"
                     [[languages.en.params.projects.list.items]]
-                    details="Flight campaign lead in Kona, Hawaii."
+                    details="Flight campaign lead in Kona, Hawaii"
                     [[languages.en.params.projects.list.items]]
-                    details="Receipient of a JPL internal award and a NASA award for the first flight of a high resolution spectrometer."
+                    details="Receipient of a JPL internal award and a NASA award for the first flight of a high resolution spectrometer"
 
                 [[languages.en.params.projects.list]]
                 title = "Smart Ice Cloud Sensing (SMICES)"
                 meta = "Jet Propulsion Laboratory"
                     [[languages.en.params.projects.list.items]]
-                    details="Design and implementation of a miniaturized 8 GHz analog spectrometer including detection, amplification, and filtering."
+                    details="Design and implementation of a miniaturized 8 GHz analog spectrometer including detection, amplification, and filtering"
                     [[languages.en.params.projects.list.items]]
-                    details="Design and implementation of a power distribution board for next versions of digital spectrometers."
+                    details="Design and implementation of a power distribution board for next versions of digital spectrometers"
 
                 [[languages.en.params.projects.list]]
                 title = "FSSCat"
                 meta = "Universitat Politècnica de Catalunya"
                     [[languages.en.params.projects.list.items]]
-                    details="2017 ESA S^3 and Copernicus Master winner and first ESA third-party mission to contribute to Copernicus program."
+                    details="2017 ESA S^3 and Copernicus Master winner"
                     [[languages.en.params.projects.list.items]]
-                    details="Mission definition, requirement, design documents, test plans, and frequency coordination with other countries."
+                    details="First ESA third-party mission to contribute to Copernicus program"        
                     [[languages.en.params.projects.list.items]]
-                    details="Software engineer responsible for FPGA and embedded software development, including instrument-to-platform interface (programmed in C)."        
+                    details="Mission definition, requirement, design documents, test plans, and frequency coordination with other countries"
                     [[languages.en.params.projects.list.items]]
-                    details="Payload lead from PDR to subsystem delivery to science lead for geophysical parameter retrieval including soil moisture, wind speed over the ocean, sea surface salinity, and sea-ice characterization."
+                    details="Payload lead from PDR to subsystem delivery to science lead for geophysical parameter retrieval including soil moisture, wind speed over the ocean, sea surface salinity, and sea-ice characterization"
 
                 [[languages.en.params.projects.list]]
                 title = "MOSAiC"
                 meta = "Universitat Politècnica de Catalunya"
                     [[languages.en.params.projects.list.items]]
-                    details="Design and implementation of a scientific instrument for sea-ice thickness detection, deployed in the Arctic Ocean in 2020."
+                    details="Design and implementation of a scientific instrument for sea-ice thickness detection, deployed in the Arctic Ocean in 2020"
                     [[languages.en.params.projects.list.items]]
-                    details="Responsible for algorithms development to conduct scientific retrievals (programmed in MATLAB)"
+                    details="Responsible for algorithms development to conduct scientific retrievals"
 
                 [[languages.en.params.projects.list]]
                 title = "3Cat-4"
@@ -285,9 +292,11 @@ defaultContentLanguage = 'en'
                     [[languages.en.params.projects.list.items]]
                     details="Mission definition, requirement, design documents, test plans"
                     [[languages.en.params.projects.list.items]]
-                    details="Software development team for C&DH, including software development for the entire communication stack in embedded systems (software in C)"
+                    details="Payload lead from PDR to subsystem delivery"
                     [[languages.en.params.projects.list.items]]
-                    details="Lead on instrument software development, and telemetry/control software (on-board and on-ground; software in C, C++ and Go)."
+                    details="Software development team for C&DH"
+                    [[languages.en.params.projects.list.items]]
+                    details="Lead on TT&C on-board and on-ground"
 
 
             [languages.en.params.information]
@@ -359,7 +368,7 @@ defaultContentLanguage = 'en'
             [languages.es.params.profile]
                 enable = true
                 name = "Joan F. Muñoz Martin"
-                tagline = "Tecnólogo, Ingeniero de Software"
+                tagline = "Tecnólogo"
                 avatar = "avatar_malibu.jpg"
 
             [languages.es.params.contact]
