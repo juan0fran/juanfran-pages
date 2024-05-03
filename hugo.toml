@@ -153,7 +153,7 @@ defaultContentLanguage = 'en'
 
             [languages.en.params.summary]
                 enable = true
-                text = "Telecommunications engineer with B.Sc., M.Sc., and Ph.D. degrees from UPC BarcelonaTech. I led the implementation of several satellite-based remote sensing payloads at the UPC NanoSat Lab. Collaborated with ESA on projects BEXUS 19, Fly Your Satellite II, and 3Cat-5/FSSCat. Partook in GNSS-R experiment during MOSAiC. Currently a Technologist at NASA's JPL, focusing on signal processing for Earth Observation and innovative instruments. Passionate about advancing technology and instrumentation. Currently developing technology advances for future quantum sensing instruments."
+                text = "Telecommunications engineer with B.Sc., M.Sc., and Ph.D. degrees from UPC BarcelonaTech. I'm currently a Technologist at NASA's JPL, focusing on signal processing for Earth Observation and innovative instruments. Working on NASA's Cold Atom Laboratory on board the International Space Station, and with Deep Space Network's Goldstone Solar System Radar. Developing technology for future quantum sensing instruments. I led the implementation of several satellite-based remote sensing payloads at the UPC NanoSat Lab. I have collaborated with ESA on projects BEXUS 19, Fly Your Satellite II, and 3Cat-5/FSSCat."
 
             [languages.en.params.experience]
                 enable = true
@@ -252,7 +252,7 @@ defaultContentLanguage = 'en'
                     [[languages.en.params.projects.list.items]]
                     details="Implementation and characterization of the instrument"
                     [[languages.en.params.projects.list.items]]
-                    details="Flight campaign lead in Kona, Hawaii"
+                    details="Flight campaign instrument lead in Kona, Hawaii"
                     [[languages.en.params.projects.list.items]]
                     details="Receipient of a JPL internal award and a NASA award for the first flight of a high resolution spectrometer"
 
@@ -496,7 +496,7 @@ defaultContentLanguage = 'en'
 
             [languages.es.params.summary]
                 enable = true
-                text = "Ingeniero de Telecomunicaciones con grado, máster y doctorado de la UPC BarcelonaTech. Lideré cargas útiles de teledetección para misiones satelitales en el Laboratorio UPC NanoSat. Colaboré con la ESA en proyectos como BEXUS 19, Fly Your Satellite II y 3Cat-5/FSSCat. Participé en el experimento GNSS-R durante MOSAiC. Actualmente tecnólogo en el JPL de la NASA, enfocado en el procesamiento de y desarrollo de instrumentos innovadores para observación Terrestre. Apasionado por el avance de la tecnología y la instrumentación. Actualmente desarrollando nuevas tecnologías para futuros instrumentos cuánticos."
+                text = "Ingeniero de Telecomunicaciones con grado, máster y doctorado de la UPC BarcelonaTech. Actualmente tecnólogo en el JPL de la NASA, enfocado en el procesamiento de y desarrollo de instrumentos innovadores para observación Terrestre. Trabajando para el Cold Atom Laboratory de la NASA a boardo de la Estación Espacial Internacional y para el Goldstone Solar System Radar de la Deep Space Network. También desarrollo nuevas tecnologías para futuros instrumentos cuánticos. He liderado cargas útiles de teledetección para misiones satelitales en el UPC NanoSatLab. He colaborado con la ESA en proyectos como BEXUS 19, Fly Your Satellite II y 3Cat-5/FSSCat."
 
             [languages.es.params.experience]
                 enable = true
