@@ -24,7 +24,7 @@ defaultContentLanguage = 'en'
             [languages.en.params.profile]
                 enable = true
                 name = "Joan F. Muñoz Martin"
-                tagline = "Technologist"
+                tagline = "Ph.D. in Telecommunications Engineering, Technologist"
                 avatar = "avatar_malibu.jpg"
 
             [languages.en.params.contact]
@@ -153,7 +153,7 @@ defaultContentLanguage = 'en'
 
             [languages.en.params.summary]
                 enable = true
-                text = "Telecommunications engineer with B.Sc., M.Sc., and Ph.D. degrees from UPC BarcelonaTech. I'm currently a Technologist at NASA's JPL, focusing on signal processing for Earth Observation and innovative instruments. Working on NASA's Cold Atom Laboratory on board the International Space Station, and with Deep Space Network's Goldstone Solar System Radar. Developing technology for future quantum sensing instruments. I led the implementation of several satellite-based remote sensing payloads at the UPC NanoSat Lab. I have collaborated with ESA on projects BEXUS 19, Fly Your Satellite II, and 3Cat-5/FSSCat."
+                text = "Telecommunications engineer with B.Sc., M.Sc., and Ph.D. degrees from UPC BarcelonaTech. I'm currently a Technologist at NASA's JPL, focusing on signal processing for Earth Observation and innovative instruments. Working on NASA's Cold Atom Laboratory on board the International Space Station, and with DSN's Goldstone Solar System Radar. Developing technology for future quantum sensing instruments. I led the implementation of several satellite-based remote sensing payloads at the UPC NanoSat Lab. I have collaborated with ESA on projects BEXUS 19, Fly Your Satellite II, and 3Cat-5/FSSCat."
 
             [languages.en.params.experience]
                 enable = true
@@ -368,7 +368,7 @@ defaultContentLanguage = 'en'
             [languages.es.params.profile]
                 enable = true
                 name = "Joan F. Muñoz Martin"
-                tagline = "Tecnólogo"
+                tagline = "Doctor en Ingeniería de Telecomunicaciones, Tecnólogo"
                 avatar = "avatar_malibu.jpg"
 
             [languages.es.params.contact]
