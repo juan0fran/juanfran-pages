@@ -73,11 +73,11 @@ defaultContentLanguage = 'en'
                 [[languages.en.params.skills.list]]
                 title = "Metrics (2023)"
                 [[languages.en.params.skills.list.items]]
-                details = "h-index: 16"
+                details = "h-index: 17"
                 [[languages.en.params.skills.list.items]]
-                details = "Manuscripts: 33"
+                details = "Manuscripts: 37"
                 [[languages.en.params.skills.list.items]]
-                details = "Conference presentations: 25"
+                details = "Conference presentations: 29"
                 
 
             [languages.en.params.education]
@@ -169,9 +169,9 @@ defaultContentLanguage = 'en'
                     [[languages.en.params.experience.list.items]]
                     details = "Process and Electrical Engineer (Cognizant Engineer) for the Cold Atom Laboratory (CAL)"
                     [[languages.en.params.experience.list.items]]
-                    details = "Software Engineer for the Goldstone Solar System Radar (GSSR) part of the Deep Space Network"
+                    details = "Software Engineer for the Deep Space Network's Goldstone Solar System Radar (GSSR)"
                     [[languages.en.params.experience.list.items]]
-                    details = "Continuation of Post-doc tasks of Data Scientist and Software Engineer for the SMAP-Reflectometry project"
+                    details = "Data Scientist and Software Engineer for the SMAP-Reflectometry project"
                     [[languages.en.params.experience.list.items]]
                     details = "Research and develop new technologies, tools, and methodologies to improve existing JPL systems, wheter is software or hardware"
 
@@ -417,11 +417,11 @@ defaultContentLanguage = 'en'
                 [[languages.es.params.skills.list]]
                 title = "Métricas (2023)"
                 [[languages.es.params.skills.list.items]]
-                details = "h-index: 16"
+                details = "h-index: 17"
                 [[languages.es.params.skills.list.items]]
-                details = "Manuscritos: 33"
+                details = "Manuscritos: 37"
                 [[languages.es.params.skills.list.items]]
-                details = "Presentaciones en congreso: 25"
+                details = "Presentaciones en congreso: 29"
                 
 
             [languages.es.params.education]
@@ -514,7 +514,7 @@ defaultContentLanguage = 'en'
                     [[languages.es.params.experience.list.items]]
                     details = "Ingeniero de Software para el Goldstone Solar Systme Radar (GSSR), parte de la Red del Espacio Profundo (Deep Space Network)"
                     [[languages.es.params.experience.list.items]]
-                    details = "Continuación de tareas de Científico de Datos e Ingeniero de Software para el proyecto SMAP-Reflectometry"
+                    details = "Científico de Datos e Ingeniero de Software para el proyecto SMAP-Reflectometry"
                     [[languages.es.params.experience.list.items]]
                     details = "Investigar y desarrollar nuevas tecnologías, herramientas y metodologías para mejorar los sistemas existentes del JPL, ya sea software o hardware"
 
