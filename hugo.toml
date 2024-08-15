@@ -71,7 +71,7 @@ defaultContentLanguage = 'en'
                 details = "Time/budget management"
 
                 [[languages.en.params.skills.list]]
-                title = "Metrics (2023)"
+                title = "Metrics (2024)"
                 [[languages.en.params.skills.list.items]]
                 details = "h-index: 17"
                 [[languages.en.params.skills.list.items]]
@@ -99,6 +99,10 @@ defaultContentLanguage = 'en'
 
             [languages.en.params.awards]
                 enable = true
+                [[languages.en.params.awards.list]]
+                name = "Voyager Award for the design, assembly, and testing of the replacement flight power supply for the Cold Atom Laboratory"
+                body = "Jet Propulsion Laboratory"
+                date = "2024"
                 [[languages.en.params.awards.list]]
                 name = "Voyager Award for outstanding engineering practices in the Cold Atom Laboratory"
                 body = "Jet Propulsion Laboratory"
@@ -415,7 +419,7 @@ defaultContentLanguage = 'en'
                 details = "Gestión del tiempo/recursos"
 
                 [[languages.es.params.skills.list]]
-                title = "Métricas (2023)"
+                title = "Métricas (2024)"
                 [[languages.es.params.skills.list.items]]
                 details = "h-index: 17"
                 [[languages.es.params.skills.list.items]]
@@ -443,6 +447,10 @@ defaultContentLanguage = 'en'
 
             [languages.es.params.awards]
                 enable = true
+                [[languages.es.params.awards.list]]
+                name = "Premio Voyager por el diseño, ensamblaje, y test de la fuente del alimentación del Cold Atom Laboratory"
+                body = "Jet Propulsion Laboratory"
+                date = "2024"
                 [[languages.es.params.awards.list]]
                 name = "Premio Voyager por las contribuciones en ingeniería al proyecto Cold Atom Laboratory"
                 body = "Jet Propulsion Laboratory"
