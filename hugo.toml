@@ -24,12 +24,12 @@ defaultContentLanguage = 'en'
             [languages.en.params.profile]
                 enable = true
                 name = "Joan F. Muñoz Martin"
-                tagline = "Ph.D. in Telecommunications Engineering, Technologist"
+                tagline = "Ph.D. in Telecommunications Engineering, Researcher"
                 avatar = "avatar_malibu.jpg"
 
             [languages.en.params.contact]
                 enable = true
-                location = "Pasadena (USA) | Mallorca (Spain)"
+                location = "Mallorca (Spain)"
 
                 [[languages.en.params.contact.list]]
                 icon = "fas fa-envelope-square"
@@ -161,10 +161,18 @@ defaultContentLanguage = 'en'
 
             [languages.en.params.experience]
                 enable = true
-
+                [[languages.en.params.experience.list]]
+                title = "Senior Researcher"
+                dates = "2024 - present"
+                company = "Fundació i2CAT"
+                    [[languages.en.params.experience.list.items]]
+                    details = "Space Communications Area Deputy Director"
+                    [[languages.en.params.experience.list.items]]
+                    details = "6GSatLab Systems Engineer"
+                    
                 [[languages.en.params.experience.list]]
                 title = "Research Technologist"
-                dates = "2022 - Present"
+                dates = "2022 - 2024"
                 company = "Jet Propulsion Laboratory"
                     [[languages.en.params.experience.list.items]]
                     details = "Principal Investigator for NASA ROSES awarded SmallSat Ice and Snow Thickness monitoring project (SITS)"
@@ -372,12 +380,12 @@ defaultContentLanguage = 'en'
             [languages.es.params.profile]
                 enable = true
                 name = "Joan F. Muñoz Martin"
-                tagline = "Doctor en Ingeniería de Telecomunicaciones, Tecnólogo"
+                tagline = "Doctor en Ingeniería de Telecomunicaciones, Investigador"
                 avatar = "avatar_malibu.jpg"
 
             [languages.es.params.contact]
                 enable = true
-                location = "Pasadena (USA) | Mallorca (España)"
+                location = "Mallorca (España)"
 
                 [[languages.es.params.contact.list]]
                 icon = "fas fa-envelope-square"
@@ -508,10 +516,18 @@ defaultContentLanguage = 'en'
 
             [languages.es.params.experience]
                 enable = true
-
+                [[languages.es.params.experience.list]]
+                title = "Investigador Senior"
+                dates = "2024 - Actual"
+                company = "Fundació i2CAT"
+                    [[languages.es.params.experience.list.items]]
+                    details = "Subdirector del área de Comunicaciones Espaciales"
+                    [[languages.es.params.experience.list.items]]
+                    details = "6GSatLab Ingeniero de Sistemas"
+                    
                 [[languages.es.params.experience.list]]
                 title = "Investigador Tecnológico"
-                dates = "2022 - Actual"
+                dates = "2022 - 2024"
                 company = "Jet Propulsion Laboratory"
                     [[languages.es.params.experience.list.items]]
                     details = "Investigador Principal para el proyecto de monitorización de espesor de hielo y nieve SmallSat (SITS) premiado por NASA ROSES"
