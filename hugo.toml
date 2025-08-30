@@ -40,22 +40,20 @@ defaultContentLanguage = 'en'
                 url = "https://joanfm.com"
                 text = "https://joanfm.com"
 
-
             [languages.en.params.skills]
                 enable = true
-
                 [[languages.en.params.skills.list]]
                 title = "Technical"
                 [[languages.en.params.skills.list.items]]
-                details = "C/C++/Python/GoLang/MATLAB/Rust"
+                details = "Embedded Programming"
                 [[languages.en.params.skills.list.items]]
-                details = "Node.js/PostgreSQL/MySQL/Git"
+                details = "Full-Stack Development"
                 [[languages.en.params.skills.list.items]]
-                details = "PCB Design (Altium)"
+                details = "Satellite Communications"
                 [[languages.en.params.skills.list.items]]
-                details = "Design, implement, and validation of complex engineering systems for science and technology advancements"
+                details = "Complex Engineering Systems (Ground and Space)"
                 [[languages.en.params.skills.list.items]]
-                details = "Data Scientist with proficient knowledge of databases, interfaces, API, data management, and artificial intelligence"
+                details = "Data Science and Statistics"
                 
                 [[languages.en.params.skills.list]]
                 title = "Professional"
@@ -67,22 +65,18 @@ defaultContentLanguage = 'en'
                 details = "Critical thinker"
                 [[languages.en.params.skills.list.items]]
                 details = "Strong problem solver"
-                [[languages.en.params.skills.list.items]]
-                details = "Time/budget management"
 
                 [[languages.en.params.skills.list]]
-                title = "Metrics (2024)"
+                title = "Metrics (2025)"
                 [[languages.en.params.skills.list.items]]
-                details = "h-index: 17"
+                details = "h-index: 20"
                 [[languages.en.params.skills.list.items]]
-                details = "Manuscripts: 37"
+                details = "+30 Manuscripts"
                 [[languages.en.params.skills.list.items]]
-                details = "Conference presentations: 29"
-                
+                details = "+40 Conference presentations"                
 
             [languages.en.params.education]
                 enable = true
-
                 [[languages.en.params.education.list]]
                 degree = "PhD in Telecommunications Engineering (Nano-satellite design and Remote Sensing) with honors (Cum Laude)"
                 university = "Universitat Politècnica de Catalunya"
@@ -95,7 +89,6 @@ defaultContentLanguage = 'en'
                 degree = "BSc in Telecommunications Systems Engineering"
                 university = "Universitat Politècnica de Catalunya"
                 dates = "2010 - 2014"
-
 
             [languages.en.params.awards]
                 enable = true
@@ -119,7 +112,6 @@ defaultContentLanguage = 'en'
                 name = "Three Group Awards"
                 body = "Jet Propulsion Laboratory"
                 date = "2022-2023"
-
                 [[languages.en.params.awards.list]]
                 name = "13a Edició Duran-Farrell"
                 body = "Universitat Politècnica de Catalunya"
@@ -132,7 +124,6 @@ defaultContentLanguage = 'en'
 
             [languages.en.params.languages]
                 enable = true
-
                 [[languages.en.params.languages.list]]
                 name = "Spanish"
                 level = "Native"
@@ -142,7 +133,6 @@ defaultContentLanguage = 'en'
                 [[languages.en.params.languages.list]]
                 name = "English"
                 level = "Professional"
-
 
             [languages.en.params.interests]
                 enable = true
@@ -157,16 +147,28 @@ defaultContentLanguage = 'en'
 
             [languages.en.params.summary]
                 enable = true
-                text = "Telecommunications engineer with B.Sc., M.Sc., and Ph.D. degrees from UPC BarcelonaTech. I'm currently the deputy director of the Space Communications Research Group at Fundació i2CAT, focusing on research and innovation on 6G technologies applied to Non Terrestrial Networks (NTN). I've been previously at NASA's Jet Propulsion Laboratory, focusing on signal processing for Earth Observation and innovative instruments. I've worked on NASA's Cold Atom Laboratory on board the International Space Station, and contributed to DSN's Goldstone Solar System Radar. I also led the implementation of several satellite-based remote sensing payloads at the UPC NanoSat Lab (3Cat-X family). I have been part of ESA's BEXUS 19, Fly Your Satellite II, and 3Cat-5/FSSCat projects"
+                text = "Ph.D. in Signal Theory and Communications from UPC BarcelonaTech. I'm currently the Director of the Space Communications Research Group at Fundació i2CAT, focusing on research and innovation on 6G technologies applied to Non Terrestrial Networks (NTN). I've been previously at NASA's Jet Propulsion Laboratory, focusing on signal processing for Earth Observation and innovative instruments. I've worked on NASA's Cold Atom Laboratory on board the International Space Station, and contributed to DSN's Goldstone Solar System Radar. I also led the implementation of several satellite-based remote sensing payloads at the UPC NanoSat Lab (3Cat-X family). I have been part of ESA's BEXUS 19, Fly Your Satellite II, and 3Cat-5/FSSCat projects"
 
             [languages.en.params.experience]
                 enable = true
                 [[languages.en.params.experience.list]]
-                title = "Senior Researcher"
-                dates = "2024 - present"
+                title = "Director of SpaceComms Research Group"
+                dates = "2025 - present"
                 company = "Fundació i2CAT"
                     [[languages.en.params.experience.list.items]]
-                    details = "Space Communications Area Deputy Director"
+                    details = "Director of Space Communications Research Group"
+                    [[languages.en.params.experience.list.items]]
+                    details = "Responsible for i2CAT's R&I in Space technologies"
+                    [[languages.en.params.experience.list.items]]
+                    details = "Catalonia's NewSpace strategy R&I coordinator"
+                    [[languages.en.params.experience.list.items]]
+                    details = "Ph.D. thesis supervisor"
+
+                title = "Senior Researcher"
+                dates = "2024 - 2025"
+                company = "Fundació i2CAT"
+                    [[languages.en.params.experience.list.items]]
+                    details = "Deputy Director of Space Communications Research Group"
                     [[languages.en.params.experience.list.items]]
                     details = "6GStarLab mission Systems Engineer"
                     [[languages.en.params.experience.list.items]]
@@ -228,10 +230,17 @@ defaultContentLanguage = 'en'
                 company = "Trans-Illes S.C."
                     [[languages.en.params.experience.list.items]]
                     details = "Summer job with administrative and archival responsabilities"
-                
 
             [languages.en.params.projects]
                 enable = true
+                [[languages.en.params.projects.list]]
+                title = "6GStarLab"
+                meta = "Fundació i2CAT"
+                [[languages.en.params.projects.list.items]]
+                details="Lead Payload Engineer"
+                [[languages.en.params.projects.list.items]]
+                details="Responsible for payload's hardware and software activities"
+
                 [[languages.en.params.projects.list]]
                 title = "Cold Atom Laboratory (CAL)"
                 meta = "Jet Propulsion Laboratory"
@@ -314,7 +323,6 @@ defaultContentLanguage = 'en'
                     [[languages.en.params.projects.list.items]]
                     details="Lead on TT&C on-board and on-ground"
 
-
             [languages.en.params.information]
                 enable = true
                 [[languages.en.params.information.list]]
@@ -343,7 +351,6 @@ defaultContentLanguage = 'en'
                 
             [languages.en.params.social]
                 enable = true
-
                 [[languages.en.params.social.list]]
                 icon = "fa-brands fa-linkedin fa-2xl"
                 url = "//linkedin.com/in/joan-francesc-munoz-martin"
@@ -364,7 +371,6 @@ defaultContentLanguage = 'en'
                 icon = "fa-brands fa-github fa-2xl"
                 url = "//github.com/juan0fran"
                 title = "GitHub"
-
 
     [languages.es]
         title = "Página personal de Joan"
@@ -400,22 +406,21 @@ defaultContentLanguage = 'en'
                 url = "https://joanfm.com"
                 text = "https://joanfm.com"
 
-
             [languages.es.params.skills]
                 enable = true
 
                 [[languages.es.params.skills.list]]
                 title = "Técnicas"
                 [[languages.es.params.skills.list.items]]
-                details = "C/C++/Python/GoLang/MATLAB"
+                details = "Programación embebida"
                 [[languages.es.params.skills.list.items]]
-                details = "Node.js/PostgreSQL/MySQL/Git"
+                details = "Desarrollo Full-Stack"
                 [[languages.es.params.skills.list.items]]
-                details = "Diseño de PCB (Altium)"
+                details = "Comunicaciones por satélite"
                 [[languages.es.params.skills.list.items]]
-                details = "Diseño, implementación y validación de diversos tipos de sistemas de ingeniería (sistemas encastados, estaciones base, etc.)"
+                details = "Sistemas de ingeniería complejos (terrestres y espaciales)"
                 [[languages.es.params.skills.list.items]]
-                details = "Científico de datos (data scientist) con amplia experiencia en manejo de datos e inteligencia artificial"
+                details = "Ciencia de datos y estadística"
                 
                 [[languages.es.params.skills.list]]
                 title = "Profesionales"
@@ -426,19 +431,16 @@ defaultContentLanguage = 'en'
                 [[languages.es.params.skills.list.items]]
                 details = "Pensamiento crítico"
                 [[languages.es.params.skills.list.items]]
-                details = "Solucionador de problemas"
-                [[languages.es.params.skills.list.items]]
-                details = "Gestión del tiempo/recursos"
+                details = "Resolución de problemas"
 
                 [[languages.es.params.skills.list]]
-                title = "Métricas (2024)"
+                title = "Métricas (2025)"
                 [[languages.es.params.skills.list.items]]
-                details = "h-index: 17"
+                details = "h-index: 20"
                 [[languages.es.params.skills.list.items]]
-                details = "Manuscritos: 37"
+                details = "+30 Manuscritos"
                 [[languages.es.params.skills.list.items]]
-                details = "Presentaciones en congreso: 29"
-                
+                details = "+40 Presentaciones en congresos"
 
             [languages.es.params.education]
                 enable = true
@@ -455,7 +457,6 @@ defaultContentLanguage = 'en'
                 degree = "Grado en Ingenería de Sistemas de Telecomunicación"
                 university = "Universitat Politècnica de Catalunya"
                 dates = "2010 - 2014"
-
 
             [languages.es.params.awards]
                 enable = true
@@ -488,7 +489,6 @@ defaultContentLanguage = 'en'
                 body = "Universitat Politècnica de Catalunya"
                 date = "2014"
 
-
             [languages.es.params.languages]
                 enable = true
 
@@ -516,13 +516,27 @@ defaultContentLanguage = 'en'
 
             [languages.es.params.summary]
                 enable = true
-                text = "Ingeniero de Telecomunicaciones con títulos de grado, máster y doctorado de la UPC BarcelonaTech. Actualmente soy subdirector del Grupo de Investigación de Space Communications en la Fundació i2CAT, donde me centro en la investigación e innovación de tecnologías 6G aplicadas a Redes No Terrestres (NTN). Anteriormente trabajé en el Laboratorio de Propulsión a Chorro (JPL) de la NASA, enfocándome en el procesamiento de señales para Observación Terrestre e instrumentos innovadores. He trabajado en el Laboratorio de Átomos Fríos de la NASA a bordo de la Estación Espacial Internacional, y contribuí al Radar del Sistema Solar Goldstone de la Red del Espacio Profundo (DSN). También lideré la implementación de varias cargas útiles de teledetección basadas en satélites en el Laboratorio NanoSat de la UPC (familia 3Cat-X). He participado en los proyectos BEXUS 19, Fly Your Satellite II y 3Cat-5/FSSCat de la ESA."
-
+                text = "Doctor en Teoría de la Señal y Comunicaciones por la UPC BarcelonaTech. Actualmente soy Director del Grupo de Comunicaciones Espaciales en la Fundació i2CAT, centrado en la investigación e innovación de tecnologías 6G aplicadas a Redes No Terrestres (NTN). Anteriormente trabajé en el Jet Propulsion Laboratory (NASA), enfocado en el procesado de señal para Observación de la Tierra e instrumentación innovadora. He trabajado en el Cold Atom Laboratory a bordo de la Estación Espacial Internacional, y he contribuido al Radar del Sistema Solar Goldstone de la Red del Espacio Profundo (DSN). También lideré la implementación de diversas cargas útiles de teledetección en el NanoSat Lab de la UPC (familia 3Cat-X). He participado en los proyectos BEXUS 19, Fly Your Satellite II y 3Cat-5/FSSCat de la ESA."
+           
             [languages.es.params.experience]
                 enable = true
+
+                [[languages.es.params.experience.list]]
+                title = "Director del Grupo de Comunicaciones Espaciales"
+                dates = "2025 - Actual"
+                company = "Fundació i2CAT"
+                    [[languages.es.params.experience.list.items]]
+                    details = "Director del Grupo de Comunicaciones Espaciales"
+                    [[languages.es.params.experience.list.items]]
+                    details = "Responsable de la I+D en tecnologías espaciales de i2CAT"
+                    [[languages.es.params.experience.list.items]]
+                    details = "Coordinador de I+D de la estrategia NewSpace de Cataluña"
+                    [[languages.es.params.experience.list.items]]
+                    details = "Director de tesis doctorales"
+
                 [[languages.es.params.experience.list]]
                 title = "Investigador Senior"
-                dates = "2024 - Actual"
+                dates = "2024 - 2025"
                 company = "Fundació i2CAT"
                     [[languages.es.params.experience.list.items]]
                     details = "Subdirector del área de Comunicaciones Espaciales"
@@ -531,7 +545,7 @@ defaultContentLanguage = 'en'
                     [[languages.es.params.experience.list.items]]
                     details = "Coordinador de frecuencias de misiones satelitales"
                     [[languages.es.params.experience.list.items]]
-                    details = "Co-dirección de estudios de doctorado"
+                    details = "Co-dirección de tesis doctorales"
                     
                 [[languages.es.params.experience.list]]
                 title = "Investigador Tecnológico"
@@ -588,17 +602,24 @@ defaultContentLanguage = 'en'
                     [[languages.es.params.experience.list.items]]
                     details = "Trabajo de verano con tareas administrativas y de archivo"
                 
-
             [languages.es.params.projects]
                 enable = true
+
+                [[languages.es.params.projects.list]]
+                title = "6GStarLab"
+                meta = "Fundació i2CAT"
+                [[languages.es.params.projects.list.items]]
+                details="Ingeniero principal de la carga útil"
+                [[languages.es.params.projects.list.items]]
+                details="Responsable de las actividades de hardware y software de la carga útil"
 
                 [[languages.es.params.projects.list]]
                 title = "Cold Atom Laboratory (CAL)"
                 meta = "Jet Propulsion Laboratory"
                 [[languages.es.params.projects.list.items]]
-                details="Diversas entregas a la Estación Espacial Internacional (ISS) para tareas de mantenimiento del módulo científico Cold Atom Laboratory"
+                details="Diversas entregas a la Estación Espacial Internacional (ISS) como parte del plan de actualización del Cold Atom Laboratory"
                 [[languages.es.params.projects.list.items]]
-                details="Equipo de Ingeniería Eléctrica que brinda apoyo a las operaciones científicas"
+                details="Apoyo de ingeniería a las operaciones científicas (tests en tierra, resolución de problemas en órbita, etc.)"
 
                 [[languages.es.params.projects.list]]
                 title = "SMAP-Reflectometry"
@@ -606,19 +627,19 @@ defaultContentLanguage = 'en'
                     [[languages.es.params.projects.list.items]]
                     details="Responsable de las cadenas de procesamiento de L1b a L2. Software escrito en C, Python, Bash y MATLAB"
                     [[languages.es.params.projects.list.items]]
-                    details="Presentaciones en conferencias y producción de manuscritos"
+                    details="Presentaciones en conferencias, producción de manuscritos y documentación"
                     [[languages.es.params.projects.list.items]]
-                    details="Desarrollo de 3 reportes de nueva tecnología con patente en trámite"
+                    details="Desarrollo de tres nuevas tecnologías, aceptadas por JPL/Caltech y con patente provisional"
 
                 [[languages.es.params.projects.list]]
                 title = "Goldstone Solar System Radar (GSSR)"
                 meta = "Jet Propulsion Laboratory"
                     [[languages.es.params.projects.list.items]]
-                    details="Procesamiento de señales: mejorar las capacidades de GSSR mediante la implementación de varias técnicas, como recuperaciones polarimétricas, procesamiento de frecuencias mejorado y técnicas de paralelización para un mayor rendimiento"
+                    details="Procesamiento de señales: mejora de las capacidades de GSSR mediante técnicas polarimétricas, procesamiento de frecuencias avanzadas y paralelización para mayor rendimiento"
                     [[languages.es.params.projects.list.items]]
-                    details="Tareas de ingeniería de software, optimización de código, documentación, y despliegue en infraestuctura"
+                    details="Apoyo de ingeniería de software en optimización de código, documentación y mantenimiento"
                     [[languages.es.params.projects.list.items]]
-                    details="Contribuciones a las observaciones de basura orbital en el espacio Cislunar"
+                    details="Contribuciones a observaciones de desechos orbitales en el espacio cislunar"
 
                 [[languages.es.params.projects.list]]
                 title = "Microwave Temperature and Humidity Probe (MTHP)"
