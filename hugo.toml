@@ -164,6 +164,7 @@ defaultContentLanguage = 'en'
                     [[languages.en.params.experience.list.items]]
                     details = "Ph.D. thesis supervisor"
 
+                [[languages.en.params.experience.list]]
                 title = "Senior Researcher"
                 dates = "2024 - 2025"
                 company = "Fundació i2CAT"
