@@ -329,13 +329,13 @@ defaultContentLanguage = 'en'
                 [[languages.en.params.information.list]]
                 title = "Selected Publications"
                 [[languages.en.params.information.list.items]]
-                details = "J. F. Munoz-Martin et al., “Stokes Parameters Retrieval and Calibration of Hybrid Compact Polarimetric GNSS-R Signals,” in IEEE Transactions on Geoscience and Remote Sensing, vol. 60, pp. 1-11, 2022, Art no. 5113911, doi: 10.1109/TGRS.2022.3178578. [Online]. Available: http://dx.doi.org/10.1109/TGRS.2022.3178578"
+                details = "I. Gallardo-Duval, J. F. Munoz-Martin, et al., “Towards GNSS-Free Synchronization: An Improved PSS-Based Frequency Alignment Technique for NTN,” IEEE Open J. Commun. Soc., vol. 7, pp. 461–479, 2026. doi: 10.1109/ojcoms.2026.3651826. [Online]. Available: http://dx.doi.org/10.1109/ojcoms.2026.3651826"
                 [[languages.en.params.information.list.items]]
-                details = "J. F. Munoz-Martin et al., “Analysis of polarimetric GNSS-R Stokes parameters of the Earth’s land surface,” Remote Sensing of Environment, vol. 287. Elsevier BV, p. 113491, Mar. 2023. doi: 10.1016/j.rse.2023.113491. [Online]. Available: http://dx.doi.org/10.1016/j.rse.2023.113491"
+                details = "J. F. Munoz-Martin, et al., “Stokes Parameters Retrieval and Calibration of Hybrid Compact Polarimetric GNSS-R Signals,” in IEEE Transactions on Geoscience and Remote Sensing, vol. 60, pp. 1-11, 2022, Art no. 5113911, doi: 10.1109/TGRS.2022.3178578. [Online]. Available: http://dx.doi.org/10.1109/TGRS.2022.3178578"
                 [[languages.en.params.information.list.items]]
-                details = "J. F. Munoz-Martin et al., “Calibration Strategy for Compact Polarimetric GNSS-R Instruments,” IEEE Transactions on Geoscience and Remote Sensing, vol. 61. Institute of Electrical and Electronics Engineers (IEEE), pp. 1–13, 2023. doi: 10.1109/tgrs.2023.3266602. Available: http://dx.doi.org/10.1109/TGRS.2023.3266602"
+                details = "J. F. Munoz-Martin, et al., “Analysis of polarimetric GNSS-R Stokes parameters of the Earth’s land surface,” Remote Sensing of Environment, vol. 287. Elsevier BV, p. 113491, Mar. 2023. doi: 10.1016/j.rse.2023.113491. [Online]. Available: http://dx.doi.org/10.1016/j.rse.2023.113491"
                 [[languages.en.params.information.list.items]]
-                details = "J. F. Munoz-Martin et al., “The Flexible Microwave Payload-2: A SDR-Based GNSS-Reflectometer and L-Band Radiometer for CubeSats,” in IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, vol. 13, pp. 1298-1311, 2020, doi: 10.1109/JSTARS.2020.2977959. [Online]. Available: http://dx.doi.org/10.1109/JSTARS.2020.2977959"
+                details = "J. F. Munoz-Martin, et al., “The Flexible Microwave Payload-2: A SDR-Based GNSS-Reflectometer and L-Band Radiometer for CubeSats,” in IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, vol. 13, pp. 1298-1311, 2020, doi: 10.1109/JSTARS.2020.2977959. [Online]. Available: http://dx.doi.org/10.1109/JSTARS.2020.2977959"
                 [[languages.en.params.information.list]]
                 title = "Other Participations"
                 [[languages.en.params.information.list.items]]
@@ -703,13 +703,13 @@ defaultContentLanguage = 'en'
                 [[languages.es.params.information.list]]
                 title = "Publicaciones seleccionadas"
                 [[languages.es.params.information.list.items]]
-                details = "J. F. Munoz-Martin et al., “Stokes Parameters Retrieval and Calibration of Hybrid Compact Polarimetric GNSS-R Signals,” in IEEE Transactions on Geoscience and Remote Sensing, vol. 60, pp. 1-11, 2022, Art no. 5113911, doi: 10.1109/TGRS.2022.3178578. [Online]. Available: http://dx.doi.org/10.1109/TGRS.2022.3178578"
+                details = "I. Gallardo-Duval, J. F. Munoz-Martin, et al., “Towards GNSS-Free Synchronization: An Improved PSS-Based Frequency Alignment Technique for NTN,” IEEE Open J. Commun. Soc., vol. 7, pp. 461–479, 2026. doi: 10.1109/ojcoms.2026.3651826. [Online]. Available: http://dx.doi.org/10.1109/ojcoms.2026.3651826"
                 [[languages.es.params.information.list.items]]
-                details = "J. F. Munoz-Martin et al., “Analysis of polarimetric GNSS-R Stokes parameters of the Earth’s land surface,” Remote Sensing of Environment, vol. 287. Elsevier BV, p. 113491, Mar. 2023. doi: 10.1016/j.rse.2023.113491. [Online]. Available: http://dx.doi.org/10.1016/j.rse.2023.113491"
+                details = "J. F. Munoz-Martin, et al., “Stokes Parameters Retrieval and Calibration of Hybrid Compact Polarimetric GNSS-R Signals,” in IEEE Transactions on Geoscience and Remote Sensing, vol. 60, pp. 1-11, 2022, Art no. 5113911, doi: 10.1109/TGRS.2022.3178578. [Online]. Available: http://dx.doi.org/10.1109/TGRS.2022.3178578"
                 [[languages.es.params.information.list.items]]
-                details = "J. F. Munoz-Martin et al., “Calibration Strategy for Compact Polarimetric GNSS-R Instruments,” IEEE Transactions on Geoscience and Remote Sensing, vol. 61. Institute of Electrical and Electronics Engineers (IEEE), pp. 1–13, 2023. doi: 10.1109/tgrs.2023.3266602. Available: http://dx.doi.org/10.1109/TGRS.2023.3266602"
+                details = "J. F. Munoz-Martin, et al., “Analysis of polarimetric GNSS-R Stokes parameters of the Earth’s land surface,” Remote Sensing of Environment, vol. 287. Elsevier BV, p. 113491, Mar. 2023. doi: 10.1016/j.rse.2023.113491. [Online]. Available: http://dx.doi.org/10.1016/j.rse.2023.113491"
                 [[languages.es.params.information.list.items]]
-                details = "J. F. Munoz-Martin et al., “The Flexible Microwave Payload-2: A SDR-Based GNSS-Reflectometer and L-Band Radiometer for CubeSats,” in IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, vol. 13, pp. 1298-1311, 2020, doi: 10.1109/JSTARS.2020.2977959. [Online]. Available: http://dx.doi.org/10.1109/JSTARS.2020.2977959"
+                details = "J. F. Munoz-Martin, et al., “The Flexible Microwave Payload-2: A SDR-Based GNSS-Reflectometer and L-Band Radiometer for CubeSats,” in IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, vol. 13, pp. 1298-1311, 2020, doi: 10.1109/JSTARS.2020.2977959. [Online]. Available: http://dx.doi.org/10.1109/JSTARS.2020.2977959"
                 [[languages.es.params.information.list]]
                 title = "Otros"
                 [[languages.es.params.information.list.items]]
