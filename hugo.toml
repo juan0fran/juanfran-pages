@@ -25,7 +25,7 @@ defaultContentLanguage = 'en'
                 enable = true
                 name = "Joan F. Muñoz Martin"
                 tagline = "Ph.D. in Telecommunications Engineering, Researcher"
-                avatar = "avatar_malibu.jpg"
+                avatar = "my_foto.jpg"
 
             [languages.en.params.contact]
                 enable = true
@@ -69,7 +69,7 @@ defaultContentLanguage = 'en'
                 [[languages.en.params.skills.list]]
                 title = "Metrics (2025)"
                 [[languages.en.params.skills.list.items]]
-                details = "h-index: 20"
+                details = "h-index: 22"
                 [[languages.en.params.skills.list.items]]
                 details = "+30 Manuscripts"
                 [[languages.en.params.skills.list.items]]
@@ -392,7 +392,7 @@ defaultContentLanguage = 'en'
                 enable = true
                 name = "Joan F. Muñoz Martin"
                 tagline = "Doctor en Ingeniería de Telecomunicaciones, Investigador"
-                avatar = "avatar_malibu.jpg"
+                avatar = "my_foto.jpg"
 
             [languages.es.params.contact]
                 enable = true
@@ -437,7 +437,7 @@ defaultContentLanguage = 'en'
                 [[languages.es.params.skills.list]]
                 title = "Métricas (2025)"
                 [[languages.es.params.skills.list.items]]
-                details = "h-index: 20"
+                details = "h-index: 22"
                 [[languages.es.params.skills.list.items]]
                 details = "+30 Manuscritos"
                 [[languages.es.params.skills.list.items]]
